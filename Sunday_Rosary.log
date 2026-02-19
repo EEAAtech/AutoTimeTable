@@ -1,0 +1,19 @@
+ROSARY --==--==--==--===: Sun Feb  8 10:00:06 PM IST 2026
+https://www.youtube.com/watch?v=_Ey2nYyujmM
+already connected to 192.168.0.154:5555
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.youtube.com/... cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
+ROSARY --==--==--==--===: Sun Feb 15 10:00:06 PM IST 2026
+https://www.youtube.com/watch?v=SorUWL_1Nn4
+failed to authenticate to 192.168.0.154:5555
+adb: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+adb: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+adb: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
