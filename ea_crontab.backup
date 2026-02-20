@@ -20,19 +20,21 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-30 7 * * 1-6 /usr/bin/mpc clear && /usr/bin/mpc load GreatestClassical && /usr/bin/mpc play && /home/ea/AutoTimeTable/ramp.sh >> /home/ea/AutoTimeTable/730Alarm.log 2>&1
-50 16 * * * /usr/bin/mpc clear && /usr/bin/mpc load Leonore && /usr/bin/mpc play && /home/ea/AutoTimeTable/ramp.sh >> /home/ea/AutoTimeTable/Tea.log 2>&1
-30 20 * * * /usr/bin/mpc clear && /usr/bin/mpc load Fritz && /usr/bin/mpc play && /home/ea/AutoTimeTable/ramp.sh >> /home/ea/AutoTimeTable/Dinner.log 2>&1
+30 7 * * 1-6 /usr/bin/mpc clear && /usr/bin/mpc load GreatestClassical && /usr/bin/mpc play && /home/ea/AutoTimeTable/ramp.sh > /home/ea/AutoTimeTable/730Alarm.log 2>&1
+50 16 * * * /usr/bin/mpc clear && /usr/bin/mpc load Leonore && /usr/bin/mpc play && /home/ea/AutoTimeTable/ramp.sh > /home/ea/AutoTimeTable/Tea.log 2>&1
+30 20 * * * /usr/bin/mpc clear && /usr/bin/mpc load Fritz && /usr/bin/mpc play && /home/ea/AutoTimeTable/ramp.sh > /home/ea/AutoTimeTable/Dinner.log 2>&1
 
 # 30 12 * * 1-4,6 /home/ea/AutoTimeTable/Daily_Mass.sh >> /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 
-30 12 * * 1 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@RelaxingPianoMoments" >> /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
-30 12 * * 2 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@Glory2himmusic" >> /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
-30 12 * * 3 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@BrunoCiribelli9" >> /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
-30 12 * * 4 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@Clasicos_Eternos" >> /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
-30 12 * * 6 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@NatalieRaynesMusic" >> /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
+30 12 * * 1 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@RelaxingPianoMoments" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
+30 12 * * 5,2 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@Glory2himmusic" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
+30 12 * * 3 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@BrunoCiribelli9" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
+30 12 * * 4 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@Clasicos_Eternos" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
+30 12 * * 6 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@NatalieRaynesMusic" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 
-00 22 * * 1,3,5 /home/ea/AutoTimeTable/Daily_Rosary.sh "https://www.youtube.com/@KristinsCrosses" false >> /home/ea/AutoTimeTable/Daily_Rosary.log 2>&1
-00 22 * * 2,4,6 /home/ea/AutoTimeTable/Daily_Rosary.sh "https://www.youtube.com/@DailyRosaryandPrayerGroup" true >> /home/ea/AutoTimeTable/Daily_Rosary.log 2>&1
-00 22 * * 7 /home/ea/AutoTimeTable/Daily_Rosary.sh "https://www.youtube.com/@thecatholicfaithchannel" false >> /home/ea/AutoTimeTable/Sunday_Rosary.log 2>&1
+00 22 * * 1,3,5 /home/ea/AutoTimeTable/Daily_Rosary.sh "https://www.youtube.com/@KristinsCrosses" false > /home/ea/AutoTimeTable/Daily_Rosary.log 2>&1
+00 22 * * 2,4,6 /home/ea/AutoTimeTable/Daily_Rosary.sh "https://www.youtube.com/@DailyRosaryandPrayerGroup" true > /home/ea/AutoTimeTable/Daily_Rosary.log 2>&1
+00 22 * * 7 /home/ea/AutoTimeTable/Daily_Rosary.sh "https://www.youtube.com/@thecatholicfaithchannel" false > /home/ea/AutoTimeTable/Sunday_Rosary.log 2>&1
 #00 22 * * 7 /home/ea/AutoTimeTable/Sunday_Rosary.sh >> /home/ea/AutoTimeTable/Sunday_Rosary.log 2>&1
+
+# To restore from backup, use:   crontab < ea_crontab.backup

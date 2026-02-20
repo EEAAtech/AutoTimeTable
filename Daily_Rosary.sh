@@ -44,7 +44,7 @@ fi
 VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'|' -f2 | xargs)
 DURATION_STR=$(echo "$VIDEO_LINE" | cut -d'|' -f3 | xargs)
 
-IFS=':' read -r minutes seconds <<< $DURATION_STR""
+IFS=':' read -r minutes seconds <<< "$DURATION_STR"
 echo "$VIDEO_URL" "$DURATION_STR" $((minutes * 60 + seconds -28))
 # exit 0
 
@@ -71,7 +71,7 @@ sleep 2
 /usr/bin/adb shell input keyevent KEYCODE_MEDIA_PLAY
 
 if [ "$ONLY_AUDIO" = "true" ]; then
-./AudioOnlyTv.sh
+./AutoTimeTable/AudioOnlyTv.sh
 fi
 
 sleep $((minutes * 60 + seconds -28))

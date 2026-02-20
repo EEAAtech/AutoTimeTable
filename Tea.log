@@ -1057,3 +1057,60 @@ Attempting to disconnect from 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
 Disconnection successful
+ 
+Attempting to connect to 6C:5A:B5:E0:9D:2B
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
+[[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd23 
+Connection successful
+Alarm --==--==--==--===: Thu Feb 19 04:50:14 PM IST 2026
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   0:12/17:37 (1%)
+volume: 10%   repeat: off   random: on    single: off   consume: off
+Current system time is: Thu Feb 19 04:50:14 PM IST 2026
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   0:12/17:37 (1%)
+volume: 15%   repeat: off   random: on    single: off   consume: off
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   0:26/17:37 (2%)
+volume: 20%   repeat: off   random: on    single: off   consume: off
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   0:40/17:37 (3%)
+volume: 25%   repeat: off   random: on    single: off   consume: off
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   0:54/17:37 (5%)
+volume: 30%   repeat: off   random: on    single: off   consume: off
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   1:08/17:37 (6%)
+volume: 35%   repeat: off   random: on    single: off   consume: off
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   1:22/17:37 (7%)
+volume: 40%   repeat: off   random: on    single: off   consume: off
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   1:36/17:37 (9%)
+volume: 45%   repeat: off   random: on    single: off   consume: off
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   1:50/17:37 (10%)
+volume: 50%   repeat: off   random: on    single: off   consume: off
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   2:04/17:37 (11%)
+volume: 55%   repeat: off   random: on    single: off   consume: off
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   2:18/17:37 (13%)
+volume: 60%   repeat: off   random: on    single: off   consume: off
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   2:32/17:37 (14%)
+volume: 65%   repeat: off   random: on    single: off   consume: off
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   2:46/17:37 (15%)
+volume: 70%   repeat: off   random: on    single: off   consume: off
+OSDISK/Hungarian Rapsody/TRACK001.MP3
+[playing] #61/85   3:00/17:37 (17%)
+volume: 75%   repeat: off   random: on    single: off   consume: off
+volume: 75%   repeat: off   random: on    single: off   consume: off
+Attempting to disconnect from 6C:5A:B5:E0:9D:2B
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd23 
+[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
+Disconnection successful

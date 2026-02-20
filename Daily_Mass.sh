@@ -27,9 +27,9 @@ echo $(yt-dlp \
 fi
 
 # Extract ID
-VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'|' -f3 | xargs)
+VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'|' -f2 | xargs)
 DURATION_STR=$(echo "$VIDEO_LINE" | cut -d'|' -f3 | xargs)
-IFS=':' read -r minutes seconds <<< $DURATION_STR""
+IFS=':' read -r minutes seconds <<< "$DURATION_STR"
 
 echo "MASS --==--==--==--===: $(date)"
 #echo "$VIDEO_LINE"rm 
@@ -75,42 +75,53 @@ sleep $((minutes * 60 + seconds))
 
 # Give time to wake up
 sleep 3
+./AutoTimeTable/AudioOnlyTv.sh
 
-# Fetch recent videos: title + id
-VIDEO_LINE=$(yt-dlp \
-  --flat-playlist \
-  --playlist-items 1 \
-  --print "%(title)s|%(webpage_url)s|%(duration_string)s" \
-  "$MUSIC_URL" | head -n 1)
-
-
-# Safety check
-if [ -z "$VIDEO_LINE" ]; then
-  echo "!!!!!!!!!!!!! No Music video found for URL: $MUSIC_URL !!!!!!!!!!!!!!"
-echo $(yt-dlp \
-  --flat-playlist \
-  --playlist-items 1-3 \
-  --print "%(title)s|%(webpage_url)s" \
-  "$MUSIC_URL")
-  exit 1
-fi
-
-# Extract ID
-VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'|' -f3 | xargs)
-
-# Launch YouTube with the correct video
-/usr/bin/adb shell am start \
-  -n com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity \
-  -a android.intent.action.VIEW \
-  -d "$VIDEO_URL"
+# if the video duration is shorter than 2700 seconds (45 mins), it will play another randomly selected video from the same channel
+# and will continue playing videos from the channel until 2700 seconds are over.
+total_duration=0
+while [ $total_duration -lt 2700 ]; do
+    # Fetch lines for first 50 videos: title|url|duration_string
+    VIDEO_LINES=$(yt-dlp \
+        --flat-playlist \
+        --playlist-items 1-50 \
+        --print "%(title)s|%(webpage_url)s|%(duration_string)s" \
+        "$MUSIC_URL")
 
 
+    # Safety check
+    if [ -z "$VIDEO_LINE" ]; then
+      echo "!!!!!!!!!!!!! No Music video found for URL: $MUSIC_URL !!!!!!!!!!!!!!"
+    echo $(yt-dlp \
+      --flat-playlist \
+      --playlist-items 1-3 \
+      --print "%(title)s|%(webpage_url)s" \
+      "$MUSIC_URL")
+      exit 1
+    fi
 
-sleep 10
-./AudioOnlyTv.sh
+    # Pick random line
+    RANDOM_LINE=$(echo "$VIDEO_LINES" | shuf -n 1)
+    
+    # Extract ID
+    VIDEO_URL=$(echo "$RANDOM_LINE" | cut -d'|' -f2 | xargs)
+    # Extract duration string and convert to seconds
+    DURATION_STR=$(echo "$RANDOM_LINE" | cut -d'|' -f3)
+    IFS=':' read -r minutes seconds <<< "$DURATION_STR"
+    DURATION_SEC=$((minutes * 60 + seconds))
 
-# After 45 mins of Youtube, play radio
-sleep 2700
+    # Launch YouTube with the correct video
+    /usr/bin/adb shell am start \
+      -n com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity \
+      -a android.intent.action.VIEW \
+      -d "$VIDEO_URL"
+
+    sleep $DURATION_SEC
+
+    total_duration=$((total_duration + DURATION_SEC))
+done
+
+
 
 
 # Moode needs an output in order to http stream. But it is out of sync, hence set BT speaker volumn to 1
@@ -125,6 +136,8 @@ sleep 2700
 
 # Start playback
 /usr/bin/mpc play
+
+sleep 3
 
 # Play it on the TV speakers
 /usr/bin/adb shell am start -a android.intent.action.VIEW -d "http://192.168.0.133:8031"

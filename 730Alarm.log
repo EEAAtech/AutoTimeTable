@@ -884,3 +884,61 @@ Attempting to disconnect from 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
 Disconnection successful
+ 
+Attempting to connect to 6C:5A:B5:E0:9D:2B
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
+[[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd25 
+Connection successful
+Alarm --==--==--==--===: Fri Feb 20 07:30:11 AM IST 2026
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   0:09/2:57 (5%)
+volume: 10%   repeat: off   random: on    single: off   consume: off
+Current system time is: Fri Feb 20 07:30:11 AM IST 2026
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   0:09/2:57 (5%)
+volume: 15%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   0:23/2:57 (12%)
+volume: 20%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   0:37/2:57 (20%)
+volume: 25%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   0:51/2:57 (28%)
+volume: 30%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   1:05/2:57 (36%)
+volume: 35%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   1:19/2:57 (44%)
+volume: 40%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   1:33/2:57 (52%)
+volume: 45%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   1:47/2:57 (60%)
+volume: 50%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   2:01/2:57 (68%)
+volume: 55%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   2:15/2:57 (76%)
+volume: 60%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   2:29/2:57 (84%)
+volume: 65%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0059 - Bach - Brandenburg concerto no.5 in d major, bwv 1050_1.Mp3
+[playing] #59/125   2:43/2:57 (92%)
+volume: 70%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0001 - Mozart - Serenade no.13 in g major, k.525 _eine kleine nachtmusik__1. allegro (excerpt).Mp3
+[playing] #1/125   0:00/1:45 (0%)
+volume: 75%   repeat: off   random: on    single: off   consume: off
+volume: 75%   repeat: off   random: on    single: off   consume: off
+Attempting to disconnect from 6C:5A:B5:E0:9D:2B
+[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd25 State: idle
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd25 
+[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
+Disconnection successful
