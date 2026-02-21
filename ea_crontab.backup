@@ -1,3 +1,4 @@
+# To restore from backup, use:   crontab < ea_crontab.backup
 # Edit this file to introduce tasks to be run by cron.
 # # Each task to run has to be defined through a single line
 # indicating with different fields when the task will be run
@@ -27,7 +28,7 @@
 # 30 12 * * 1-4,6 /home/ea/AutoTimeTable/Daily_Mass.sh >> /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 
 30 12 * * 1 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@RelaxingPianoMoments" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
-30 12 * * 5,2 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@Glory2himmusic" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
+30 12 * * 2 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@Glory2himmusic" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 30 12 * * 3 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@BrunoCiribelli9" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 30 12 * * 4 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@Clasicos_Eternos" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 30 12 * * 6 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@NatalieRaynesMusic" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1

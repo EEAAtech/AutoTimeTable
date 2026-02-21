@@ -27,14 +27,14 @@ echo $(yt-dlp \
 fi
 
 # Extract ID
-VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'|' -f2 | xargs)
-DURATION_STR=$(echo "$VIDEO_LINE" | cut -d'|' -f3 | xargs)
+VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'|' -f3 | xargs)
+DURATION_STR=$(echo "$VIDEO_LINE" | cut -d'|' -f4 | xargs)
 IFS=':' read -r minutes seconds <<< "$DURATION_STR"
 
 echo "MASS --==--==--==--===: $(date)"
 #echo "$VIDEO_LINE"rm 
-echo "$VIDEO_URL"
-#exit 0
+echo "$VIDEO_URL"  
+# exit 0
 
 # Connect to TV
 /usr/bin/adb connect "$TV_IP"

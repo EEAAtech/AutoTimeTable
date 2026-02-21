@@ -45,8 +45,8 @@ VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'|' -f2 | xargs)
 DURATION_STR=$(echo "$VIDEO_LINE" | cut -d'|' -f3 | xargs)
 
 IFS=':' read -r minutes seconds <<< "$DURATION_STR"
-echo "$VIDEO_URL" "$DURATION_STR" $((minutes * 60 + seconds -28))
-# exit 0
+echo "$VIDEO_URL" "$DURATION_STR"
+exit 0
 
 # Connect to TV
 /usr/bin/adb connect "$TV_IP"
