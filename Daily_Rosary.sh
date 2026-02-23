@@ -30,11 +30,7 @@ VIDEO_LINE=$(yt-dlp --flat-playlist --playlist-items 1-3 --print "%(title)s|%(we
 # Safety check
 if [ -z "$VIDEO_LINE" ]; then
   echo "!!!!!!!!!!!!! No Rosary video found for date: $TODAY_STR !!!!!!!!!!!!!!"
-echo $(yt-dlp \
-  --flat-playlist \
-  --playlist-items 1-3 \
-  --print "%(title)s|%(webpage_url)s" \
-  "$CHANNEL_URL")
+echo "The Video Line: $VIDEO_LINE"
   
   # If no video found, try again without the "Rosary" filter, in case the title format changed
   VIDEO_LINE=$(yt-dlp --flat-playlist --playlist-items 1 --print "%(title)s|%(webpage_url)s|%(duration_string)s" "$CHANNEL_URL" )
@@ -46,7 +42,13 @@ DURATION_STR=$(echo "$VIDEO_LINE" | cut -d'|' -f3 | xargs)
 
 IFS=':' read -r minutes seconds <<< "$DURATION_STR"
 echo "$VIDEO_URL" "$DURATION_STR"
-exit 0
+# exit 0
+
+# Safety check
+if [ -z "$VIDEO_URL" ]; then
+  echo "!!!!!!!!!!!!! Failsafe also failed:   $VIDEO_LINE!!!!!!!!!!!!!!"
+  exit 0
+fi
 
 # Connect to TV
 /usr/bin/adb connect "$TV_IP"
