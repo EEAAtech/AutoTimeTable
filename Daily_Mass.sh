@@ -91,17 +91,13 @@ while [ $total_duration -lt 2700 ]; do
 
     # Safety check
     if [ -z "$VIDEO_LINE" ]; then
-      echo "!!!!!!!!!!!!! No Music video found for URL: $MUSIC_URL !!!!!!!!!!!!!!"
-    echo $(yt-dlp \
-      --flat-playlist \
-      --playlist-items 1-3 \
-      --print "%(title)s|%(webpage_url)s" \
-      "$MUSIC_URL")
-      exit 1
+      echo "!!!!!!!!!!!!! No Music video found for URL: $MUSIC_LINE !!!!!!!!!!!!!! $MUSIC_URL"
     fi
 
     # Pick random line
     RANDOM_LINE=$(echo "$VIDEO_LINES" | shuf -n 1)
+
+    echo "Playing: $RANDOM_LINE at: $(date)" 
     
     # Extract ID
     VIDEO_URL=$(echo "$RANDOM_LINE" | cut -d'|' -f2 | xargs)
@@ -109,6 +105,7 @@ while [ $total_duration -lt 2700 ]; do
     DURATION_STR=$(echo "$RANDOM_LINE" | cut -d'|' -f3)
     IFS=':' read -r minutes seconds <<< "$DURATION_STR"
     DURATION_SEC=$((minutes * 60 + seconds))
+
 
     # Launch YouTube with the correct video
     /usr/bin/adb shell am start \
@@ -121,7 +118,7 @@ while [ $total_duration -lt 2700 ]; do
     total_duration=$((total_duration + DURATION_SEC))
 done
 
-
+echo "Switching to Radio at: $(date)" 
 
 
 # Moode needs an output in order to http stream. But it is out of sync, hence set BT speaker volumn to 1

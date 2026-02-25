@@ -2,56 +2,56 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd33 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd39 
 Connection successful
-Alarm --==--==--==--===: Mon Feb 23 07:30:14 AM IST 2026
-OSDISK/GreatestClassical/0117 - Vivaldi - Gloria in d major, rv 589_ gloria in exelsis.Mp3
-[playing] #117/125   0:11/2:26 (7%)
+Alarm --==--==--==--===: Wed Feb 25 07:30:14 AM IST 2026
+OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
+[playing] #47/125   0:12/1:59 (10%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Mon Feb 23 07:30:14 AM IST 2026
-OSDISK/GreatestClassical/0117 - Vivaldi - Gloria in d major, rv 589_ gloria in exelsis.Mp3
-[playing] #117/125   0:11/2:26 (7%)
+Current system time is: Wed Feb 25 07:30:14 AM IST 2026
+OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
+[playing] #47/125   0:12/1:59 (10%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0117 - Vivaldi - Gloria in d major, rv 589_ gloria in exelsis.Mp3
-[playing] #117/125   0:25/2:26 (17%)
+OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
+[playing] #47/125   0:26/1:59 (21%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0117 - Vivaldi - Gloria in d major, rv 589_ gloria in exelsis.Mp3
-[playing] #117/125   0:39/2:26 (26%)
+OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
+[playing] #47/125   0:40/1:59 (33%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0117 - Vivaldi - Gloria in d major, rv 589_ gloria in exelsis.Mp3
-[playing] #117/125   0:53/2:26 (36%)
+OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
+[playing] #47/125   0:54/1:59 (45%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0117 - Vivaldi - Gloria in d major, rv 589_ gloria in exelsis.Mp3
-[playing] #117/125   1:07/2:26 (45%)
+OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
+[playing] #47/125   1:08/1:59 (57%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0117 - Vivaldi - Gloria in d major, rv 589_ gloria in exelsis.Mp3
-[playing] #117/125   1:21/2:26 (55%)
+OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
+[playing] #47/125   1:22/1:59 (68%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0117 - Vivaldi - Gloria in d major, rv 589_ gloria in exelsis.Mp3
-[playing] #117/125   1:35/2:26 (65%)
+OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
+[playing] #47/125   1:36/1:59 (80%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0117 - Vivaldi - Gloria in d major, rv 589_ gloria in exelsis.Mp3
-[playing] #117/125   1:49/2:26 (74%)
+OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
+[playing] #47/125   1:50/1:59 (92%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0117 - Vivaldi - Gloria in d major, rv 589_ gloria in exelsis.Mp3
-[playing] #117/125   2:03/2:26 (84%)
+OSDISK/GreatestClassical/0011 - Mozart - Requiem, k.626_7.Lacrymosa.Mp3
+[playing] #11/125   0:05/3:03 (2%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0117 - Vivaldi - Gloria in d major, rv 589_ gloria in exelsis.Mp3
-[playing] #117/125   2:17/2:26 (93%)
+OSDISK/GreatestClassical/0011 - Mozart - Requiem, k.626_7.Lacrymosa.Mp3
+[playing] #11/125   0:19/3:03 (10%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0096 - Tchaikovsky - Symphony no. 3 in d major, op.29 _polish__2.Mp3
-[playing] #96/125   0:06/3:10 (3%)
+OSDISK/GreatestClassical/0011 - Mozart - Requiem, k.626_7.Lacrymosa.Mp3
+[playing] #11/125   0:33/3:03 (18%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0096 - Tchaikovsky - Symphony no. 3 in d major, op.29 _polish__2.Mp3
-[playing] #96/125   0:20/3:10 (10%)
+OSDISK/GreatestClassical/0011 - Mozart - Requiem, k.626_7.Lacrymosa.Mp3
+[playing] #11/125   0:47/3:03 (25%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0096 - Tchaikovsky - Symphony no. 3 in d major, op.29 _polish__2.Mp3
-[playing] #96/125   0:34/3:10 (17%)
+OSDISK/GreatestClassical/0011 - Mozart - Requiem, k.626_7.Lacrymosa.Mp3
+[playing] #11/125   1:02/3:03 (33%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd33 State: idle
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd33 
+[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd39 State: idle
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd39 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no

@@ -1,17 +1,17 @@
  
-MASS --==--==--==--===: Sat Feb 21 12:30:06 PM IST 2026
-Daily TV Mass, Saturday February 21, 2026
+MASS --==--==--==--===: Wed Feb 25 12:30:06 PM IST 2026
+https://www.youtube.com/watch?v=2YFLCSXUeJQ
 connected to 192.168.0.154:5555
-Starting: Intent { act=android.intent.action.VIEW dat=Daily pkg=TV cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
-/home/ea/AutoTimeTable/Daily_Mass.sh: line 64: //www.youtube.com/watch?v=zZH62HZypJ0: syntax error: operand expected (error token is "//www.youtube.com/watch?v=zZH62HZypJ0")
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.youtube.com/... cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
 already connected to 192.168.0.154:5555
 Starting: Intent { act=android.intent.action.VIEW dat=https://www.youtube.com/... cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
-Starting: Intent { act=android.intent.action.VIEW dat=https://www.youtube.com/... cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
+/home/ea/AutoTimeTable/Daily_Mass.sh: line 111: Piano Instrumental #shorts: syntax error: invalid arithmetic operator (error token is "#shorts")
 volume:  1%   repeat: off   random: on    single: off   consume: off
 volume:  1%   repeat: off   random: on    single: off   consume: off
 loading: BBC3Radio
-http://play2.organlive.com:7002/320
-[playing] #3/3   0:00/0:00 (0%)
+http://play2.organlive.com:7006/320
+[playing] #2/3   0:00/0:00 (0%)
 volume:  1%   repeat: off   random: on    single: off   consume: off
 Starting: Intent { act=android.intent.action.VIEW dat=http://192.168.0.133:8031/... }
+Warning: Activity not started, its current task has been brought to the front
 volume:  1%   repeat: off   random: on    single: off   consume: off
