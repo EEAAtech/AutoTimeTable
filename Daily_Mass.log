@@ -1,11 +1,12 @@
  
-MASS --==--==--==--===: Wed Feb 25 12:30:06 PM IST 2026
-https://www.youtube.com/watch?v=2YFLCSXUeJQ
+MASS --==--==--==--===: Thu Feb 26 12:30:06 PM IST 2026
+https://www.youtube.com/watch?v=7MFwW1Uqm8U
 connected to 192.168.0.154:5555
 Starting: Intent { act=android.intent.action.VIEW dat=https://www.youtube.com/... cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
 already connected to 192.168.0.154:5555
-Starting: Intent { act=android.intent.action.VIEW dat=https://www.youtube.com/... cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
-/home/ea/AutoTimeTable/Daily_Mass.sh: line 111: Piano Instrumental #shorts: syntax error: invalid arithmetic operator (error token is "#shorts")
+Playing: Instrumental Music 1950s 🎵🎶 Relax with the Classic Melodies of Yesterday 🎼|https://www.youtube.com/watch?v=VtGESmZA2Aw|2:06:19 at: Thu Feb 26 12:59:35 PM IST 2026
+/home/ea/AutoTimeTable/Daily_Mass.sh: line 107: 06:19: syntax error in expression (error token is ":19")
+Switching to Radio at: Thu Feb 26 12:59:35 PM IST 2026
 volume:  1%   repeat: off   random: on    single: off   consume: off
 volume:  1%   repeat: off   random: on    single: off   consume: off
 loading: BBC3Radio

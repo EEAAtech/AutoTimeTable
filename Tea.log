@@ -2,56 +2,56 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd40 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd43 
 Connection successful
-Alarm --==--==--==--===: Wed Feb 25 04:50:14 PM IST 2026
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   0:12/15:08 (1%)
+Alarm --==--==--==--===: Thu Feb 26 04:50:11 PM IST 2026
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   0:09/15:55 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Wed Feb 25 04:50:14 PM IST 2026
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   0:12/15:08 (1%)
+Current system time is: Thu Feb 26 04:50:11 PM IST 2026
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   0:09/15:55 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   0:26/15:08 (2%)
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   0:23/15:55 (2%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   0:40/15:08 (4%)
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   0:37/15:55 (3%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   0:54/15:08 (5%)
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   0:51/15:55 (5%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   1:08/15:08 (7%)
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   1:05/15:55 (6%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   1:22/15:08 (9%)
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   1:19/15:55 (8%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   1:36/15:08 (10%)
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   1:33/15:55 (9%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   1:50/15:08 (12%)
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   1:47/15:55 (11%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   2:04/15:08 (13%)
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   2:01/15:55 (12%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   2:18/15:08 (15%)
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   2:15/15:55 (14%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   2:32/15:08 (16%)
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   2:29/15:55 (15%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   2:46/15:08 (18%)
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   2:43/15:55 (17%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_007.MP3
-[playing] #69/85   3:00/15:08 (19%)
+OSDISK/VIDEO011/TRACK001.MP3
+[playing] #84/85   2:57/15:55 (18%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd40 State: idle
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd40 
+[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd43 State: idle
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd43 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no

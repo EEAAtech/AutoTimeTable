@@ -103,8 +103,14 @@ while [ $total_duration -lt 2700 ]; do
     VIDEO_URL=$(echo "$RANDOM_LINE" | cut -d'|' -f2 | xargs)
     # Extract duration string and convert to seconds
     DURATION_STR=$(echo "$RANDOM_LINE" | cut -d'|' -f3)
-    IFS=':' read -r minutes seconds <<< "$DURATION_STR"
-    DURATION_SEC=$((minutes * 60 + seconds))
+
+    #Handle case where duration string is in format "1:23:45" (hours:minutes:seconds)
+    if [[ "$DURATION_STR" == *:*:* ]]; then
+      IFS=':' read -r hours minutes seconds <<< "$DURATION_STR"
+      DURATION_SEC=$((hours * 3600 + minutes * 60 + seconds))
+    else  # Handle case where duration string is in format "1:23" (minutes:seconds)
+      IFS=':' read -r minutes seconds <<< "$DURATION_STR"
+      DURATION_SEC=$((minutes * 60 + seconds))
 
 
     # Launch YouTube with the correct video
@@ -113,6 +119,10 @@ while [ $total_duration -lt 2700 ]; do
       -a android.intent.action.VIEW \
       -d "$VIDEO_URL"
 
+    #If $DURATION_SEC is more than 2700, set it to 2700 so that the loop will end after this video
+    if [ $DURATION_SEC -gt 2700 ]; then
+      DURATION_SEC=2700
+    fi
     sleep $DURATION_SEC
 
     total_duration=$((total_duration + DURATION_SEC))
