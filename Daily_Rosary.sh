@@ -78,3 +78,4 @@ fi
 
 sleep $((minutes * 60 + seconds -28))
 adb shell input keyevent 26
+echo $?

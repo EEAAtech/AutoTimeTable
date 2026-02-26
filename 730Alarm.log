@@ -2,56 +2,55 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd39 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd42 
 Connection successful
-Alarm --==--==--==--===: Wed Feb 25 07:30:14 AM IST 2026
-OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
-[playing] #47/125   0:12/1:59 (10%)
+Alarm --==--==--==--===: Thu Feb 26 07:30:11 AM IST 2026
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   0:09/4:26 (3%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Wed Feb 25 07:30:14 AM IST 2026
-OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
-[playing] #47/125   0:12/1:59 (10%)
+Current system time is: Thu Feb 26 07:30:11 AM IST 2026
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   0:09/4:26 (3%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
-[playing] #47/125   0:26/1:59 (21%)
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   0:23/4:26 (8%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
-[playing] #47/125   0:40/1:59 (33%)
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   0:37/4:26 (13%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
-[playing] #47/125   0:54/1:59 (45%)
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   0:51/4:26 (19%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
-[playing] #47/125   1:08/1:59 (57%)
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   1:05/4:26 (24%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
-[playing] #47/125   1:22/1:59 (68%)
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   1:19/4:26 (29%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
-[playing] #47/125   1:36/1:59 (80%)
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   1:33/4:26 (34%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0047 - Beethoven - 6 eccosaises, woo 83.Mp3
-[playing] #47/125   1:50/1:59 (92%)
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   1:47/4:26 (40%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0011 - Mozart - Requiem, k.626_7.Lacrymosa.Mp3
-[playing] #11/125   0:05/3:03 (2%)
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   2:01/4:26 (45%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0011 - Mozart - Requiem, k.626_7.Lacrymosa.Mp3
-[playing] #11/125   0:19/3:03 (10%)
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   2:15/4:26 (50%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0011 - Mozart - Requiem, k.626_7.Lacrymosa.Mp3
-[playing] #11/125   0:33/3:03 (18%)
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   2:29/4:26 (56%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0011 - Mozart - Requiem, k.626_7.Lacrymosa.Mp3
-[playing] #11/125   0:47/3:03 (25%)
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   2:43/4:26 (61%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0011 - Mozart - Requiem, k.626_7.Lacrymosa.Mp3
-[playing] #11/125   1:02/3:03 (33%)
+OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
+[playing] #85/125   2:57/4:26 (66%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd39 State: idle
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd39 
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd42 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
