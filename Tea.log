@@ -2,56 +2,56 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd43 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd13 
 Connection successful
-Alarm --==--==--==--===: Thu Feb 26 04:50:11 PM IST 2026
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   0:09/15:55 (0%)
+Alarm --==--==--==--===: Tue Mar  3 04:50:11 PM IST 2026
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   0:08/5:00 (2%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Thu Feb 26 04:50:11 PM IST 2026
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   0:09/15:55 (0%)
+Current system time is: Tue Mar  3 04:50:11 PM IST 2026
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   0:08/5:00 (2%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   0:23/15:55 (2%)
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   0:22/5:00 (7%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   0:37/15:55 (3%)
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   0:36/5:00 (12%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   0:51/15:55 (5%)
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   0:50/5:00 (16%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   1:05/15:55 (6%)
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   1:04/5:00 (21%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   1:19/15:55 (8%)
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   1:18/5:00 (26%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   1:33/15:55 (9%)
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   1:32/5:00 (30%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   1:47/15:55 (11%)
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   1:46/5:00 (35%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   2:01/15:55 (12%)
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   2:00/5:00 (40%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   2:15/15:55 (14%)
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   2:14/5:00 (44%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   2:29/15:55 (15%)
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   2:28/5:00 (49%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   2:43/15:55 (17%)
+Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
+[playing] #42/85   2:42/5:00 (54%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/VIDEO011/TRACK001.MP3
-[playing] #84/85   2:57/15:55 (18%)
+Joni James - Why Dont You Believe Me
+[playing] #8/85   0:02/4:30 (0%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd43 State: idle
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd43 
+[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd13 State: idle
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd13 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no

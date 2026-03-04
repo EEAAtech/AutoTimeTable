@@ -1,18 +1,8 @@
  
-MASS --==--==--==--===: Thu Feb 26 12:30:06 PM IST 2026
-https://www.youtube.com/watch?v=7MFwW1Uqm8U
-connected to 192.168.0.154:5555
+MASS --==--==--==--===: Tue Mar  3 12:30:06 PM IST 2026
+https://www.youtube.com/watch?v=8m9a8QikYi0
+already connected to 192.168.0.154:5555
 Starting: Intent { act=android.intent.action.VIEW dat=https://www.youtube.com/... cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
 already connected to 192.168.0.154:5555
-Playing: Instrumental Music 1950s 🎵🎶 Relax with the Classic Melodies of Yesterday 🎼|https://www.youtube.com/watch?v=VtGESmZA2Aw|2:06:19 at: Thu Feb 26 12:59:35 PM IST 2026
-/home/ea/AutoTimeTable/Daily_Mass.sh: line 107: 06:19: syntax error in expression (error token is ":19")
-Switching to Radio at: Thu Feb 26 12:59:35 PM IST 2026
-volume:  1%   repeat: off   random: on    single: off   consume: off
-volume:  1%   repeat: off   random: on    single: off   consume: off
-loading: BBC3Radio
-http://play2.organlive.com:7006/320
-[playing] #2/3   0:00/0:00 (0%)
-volume:  1%   repeat: off   random: on    single: off   consume: off
-Starting: Intent { act=android.intent.action.VIEW dat=http://192.168.0.133:8031/... }
-Warning: Activity not started, its current task has been brought to the front
-volume:  1%   repeat: off   random: on    single: off   consume: off
+/home/ea/AutoTimeTable/Daily_Mass.sh: line 129: syntax error near unexpected token `done'
+/home/ea/AutoTimeTable/Daily_Mass.sh: line 129: `done'

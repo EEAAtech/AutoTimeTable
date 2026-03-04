@@ -2,55 +2,56 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd42 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd15 
 Connection successful
-Alarm --==--==--==--===: Thu Feb 26 07:30:11 AM IST 2026
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   0:09/4:26 (3%)
+Alarm --==--==--==--===: Wed Mar  4 07:30:12 AM IST 2026
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   0:09/3:31 (4%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Thu Feb 26 07:30:11 AM IST 2026
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   0:09/4:26 (3%)
+Current system time is: Wed Mar  4 07:30:12 AM IST 2026
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   0:09/3:31 (4%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   0:23/4:26 (8%)
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   0:23/3:31 (10%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   0:37/4:26 (13%)
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   0:37/3:31 (17%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   0:51/4:26 (19%)
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   0:51/3:31 (24%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   1:05/4:26 (24%)
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   1:05/3:31 (30%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   1:19/4:26 (29%)
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   1:19/3:31 (37%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   1:33/4:26 (34%)
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   1:33/3:31 (44%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   1:47/4:26 (40%)
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   1:47/3:31 (50%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   2:01/4:26 (45%)
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   2:01/3:31 (57%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   2:15/4:26 (50%)
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   2:15/3:31 (63%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   2:29/4:26 (56%)
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   2:29/3:31 (70%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   2:43/4:26 (61%)
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   2:43/3:31 (77%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0085 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ pas d'action.Mp3
-[playing] #85/125   2:57/4:26 (66%)
+OSDISK/GreatestClassical/0084 - Tchaikovsky - The sleeping beauty, ballet suite, op.66a_ introduction.Mp3
+[playing] #84/125   2:57/3:31 (83%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd42 
+[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd15 State: idle
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd15 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
