@@ -2,56 +2,56 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd13 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd16 
 Connection successful
-Alarm --==--==--==--===: Tue Mar  3 04:50:11 PM IST 2026
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   0:08/5:00 (2%)
+Alarm --==--==--==--===: Wed Mar  4 04:50:11 PM IST 2026
+Dick Hyman - Moritat (Theme from the Threepenny Opera)
+[playing] #35/85   0:09/3:23 (4%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Tue Mar  3 04:50:11 PM IST 2026
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   0:08/5:00 (2%)
+Current system time is: Wed Mar  4 04:50:11 PM IST 2026
+Dick Hyman - Moritat (Theme from the Threepenny Opera)
+[playing] #35/85   0:09/3:23 (4%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   0:22/5:00 (7%)
+Dick Hyman - Moritat (Theme from the Threepenny Opera)
+[playing] #35/85   0:23/3:23 (11%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   0:36/5:00 (12%)
+Dick Hyman - Moritat (Theme from the Threepenny Opera)
+[playing] #35/85   0:37/3:23 (18%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   0:50/5:00 (16%)
+Dick Hyman - Moritat (Theme from the Threepenny Opera)
+[playing] #35/85   0:51/3:23 (25%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   1:04/5:00 (21%)
+Dick Hyman - Moritat (Theme from the Threepenny Opera)
+[playing] #35/85   1:05/3:23 (32%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   1:18/5:00 (26%)
+Dick Hyman - Moritat (Theme from the Threepenny Opera)
+[playing] #35/85   1:19/3:23 (38%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   1:32/5:00 (30%)
+Dick Hyman - Moritat (Theme from the Threepenny Opera)
+[playing] #35/85   1:33/3:23 (45%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   1:46/5:00 (35%)
+Dick Hyman - Moritat (Theme from the Threepenny Opera)
+[playing] #35/85   1:47/3:23 (52%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   2:00/5:00 (40%)
+Dick Hyman - Moritat (Theme from the Threepenny Opera)
+[playing] #35/85   2:01/3:23 (59%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   2:14/5:00 (44%)
+OSDISK/LINEIN/FILE_009.MP3
+[playing] #71/85   0:03/18:04 (0%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   2:28/5:00 (49%)
+OSDISK/LINEIN/FILE_009.MP3
+[playing] #71/85   0:17/18:04 (1%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-Vaughn Monroe and His Orchestra/ and the Quartet - Ghost Riders in the Sky
-[playing] #42/85   2:42/5:00 (54%)
+OSDISK/LINEIN/FILE_009.MP3
+[playing] #71/85   0:31/18:04 (2%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-Joni James - Why Dont You Believe Me
-[playing] #8/85   0:02/4:30 (0%)
+OSDISK/LINEIN/FILE_009.MP3
+[playing] #71/85   0:45/18:04 (4%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd13 State: idle
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd13 
+[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd16 State: idle
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd16 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no

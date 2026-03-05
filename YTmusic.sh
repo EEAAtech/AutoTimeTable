@@ -2,14 +2,16 @@
 # and will continue playing videos from the channel until 2700 seconds are over.
 
 MUSIC_URL="$1"
-
 total_duration=0
+
 
 # if the video duration is shorter than 2700 seconds (45 mins), it will play another randomly selected video from the same channel
 # and will continue playing videos from the channel until 2700 seconds are over.
 total_duration=0
-while [ $total_duration -lt 2700 ]; do
-  # Fetch lines for first 50 videos: title|url|duration_string
+while [ $total_duration -lt 2700 ]; 
+do
+  
+    # Fetch lines for first 50 videos: title|url|duration_string
   VIDEO_LINES=$(yt-dlp \
       --flat-playlist \
       --playlist-items 1-50 \
@@ -39,7 +41,8 @@ while [ $total_duration -lt 2700 ]; do
   else  # Handle case where duration string is in format "1:23" (minutes:seconds)
     IFS=':' read -r minutes seconds <<< "$DURATION_STR"
     DURATION_SEC=$((minutes * 60 + seconds))
-
+  fi
+ 
 
   # Launch YouTube with the correct video
   /usr/bin/adb shell am start \

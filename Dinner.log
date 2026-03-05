@@ -2,55 +2,56 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd14 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd17 
 Connection successful
-Alarm --==--==--==--===: Tue Mar  3 08:30:10 PM IST 2026
+Alarm --==--==--==--===: Wed Mar  4 08:30:11 PM IST 2026
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   0:07/0:00 (0%)
+[playing] #1/2   0:06/0:00 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Tue Mar  3 08:30:10 PM IST 2026
+Current system time is: Wed Mar  4 08:30:11 PM IST 2026
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   0:07/0:00 (0%)
+[playing] #1/2   0:06/0:00 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   0:21/0:00 (0%)
+[playing] #1/2   0:20/0:00 (0%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   0:35/0:00 (0%)
+[playing] #1/2   0:34/0:00 (0%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   0:49/0:00 (0%)
+[playing] #1/2   0:48/0:00 (0%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   1:03/0:00 (0%)
+[playing] #1/2   1:02/0:00 (0%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   1:17/0:00 (0%)
+[playing] #1/2   1:16/0:00 (0%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   1:31/0:00 (0%)
+[playing] #1/2   1:30/0:00 (0%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   1:45/0:00 (0%)
+[playing] #1/2   1:44/0:00 (0%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   1:59/0:00 (0%)
+[playing] #1/2   1:58/0:00 (0%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   2:13/0:00 (0%)
+[playing] #1/2   2:12/0:00 (0%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   2:27/0:00 (0%)
+[playing] #1/2   2:26/0:00 (0%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   2:41/0:00 (0%)
+[playing] #1/2   2:40/0:00 (0%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
 francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   2:55/0:00 (0%)
+[playing] #1/2   2:54/0:00 (0%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd14 
+[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd17 State: idle
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd17 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no

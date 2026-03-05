@@ -1,8 +1,16 @@
  
-MASS --==--==--==--===: Wed Mar  4 12:30:07 PM IST 2026
-https://www.youtube.com/watch?v=IQzeb4aeHSM
+MASS --==--==--==--===: Thu Mar  5 12:30:06 PM IST 2026
+https://www.youtube.com/watch?v=Tftm7RNJq_o
 connected to 192.168.0.154:5555
 Starting: Intent { act=android.intent.action.VIEW dat=https://www.youtube.com/... cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
 already connected to 192.168.0.154:5555
-/home/ea/AutoTimeTable/Daily_Mass.sh: line 129: syntax error near unexpected token `done'
-/home/ea/AutoTimeTable/Daily_Mass.sh: line 129: `done'
+./AutoTimeTable/YTmusic.sh: line 58: syntax error near unexpected token `done'
+./AutoTimeTable/YTmusic.sh: line 58: `done'
+Switching to Radio at: Thu Mar  5 12:59:29 PM IST 2026
+volume:  1%   repeat: off   random: on    single: off   consume: off
+volume:  1%   repeat: off   random: on    single: off   consume: off
+loading: BBC3Radio
+http://play2.organlive.com:7002/320
+[playing] #2/2   0:00/0:00 (0%)
+volume:  1%   repeat: off   random: on    single: off   consume: off
+Starting: Intent { act=android.intent.action.VIEW dat=http://192.168.0.133:8031/... }
