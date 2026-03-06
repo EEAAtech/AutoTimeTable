@@ -14,3 +14,4 @@ http://play2.organlive.com:7002/320
 [playing] #2/2   0:00/0:00 (0%)
 volume:  1%   repeat: off   random: on    single: off   consume: off
 Starting: Intent { act=android.intent.action.VIEW dat=http://192.168.0.133:8031/... }
+volume:  1%   repeat: off   random: on    single: off   consume: off

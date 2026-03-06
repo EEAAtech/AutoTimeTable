@@ -2,56 +2,55 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd16 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd19 
 Connection successful
-Alarm --==--==--==--===: Wed Mar  4 04:50:11 PM IST 2026
-Dick Hyman - Moritat (Theme from the Threepenny Opera)
-[playing] #35/85   0:09/3:23 (4%)
+Alarm --==--==--==--===: Thu Mar  5 04:50:11 PM IST 2026
+Jo Stafford - Make Love to Me
+[playing] #2/85   0:09/4:43 (3%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Wed Mar  4 04:50:11 PM IST 2026
-Dick Hyman - Moritat (Theme from the Threepenny Opera)
-[playing] #35/85   0:09/3:23 (4%)
+Current system time is: Thu Mar  5 04:50:11 PM IST 2026
+Jo Stafford - Make Love to Me
+[playing] #2/85   0:09/4:43 (3%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-Dick Hyman - Moritat (Theme from the Threepenny Opera)
-[playing] #35/85   0:23/3:23 (11%)
+Jo Stafford - Make Love to Me
+[playing] #2/85   0:23/4:43 (8%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-Dick Hyman - Moritat (Theme from the Threepenny Opera)
-[playing] #35/85   0:37/3:23 (18%)
+Jo Stafford - Make Love to Me
+[playing] #2/85   0:37/4:43 (13%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-Dick Hyman - Moritat (Theme from the Threepenny Opera)
-[playing] #35/85   0:51/3:23 (25%)
+Jo Stafford - Make Love to Me
+[playing] #2/85   0:51/4:43 (18%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-Dick Hyman - Moritat (Theme from the Threepenny Opera)
-[playing] #35/85   1:05/3:23 (32%)
+Jo Stafford - Make Love to Me
+[playing] #2/85   1:05/4:43 (22%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-Dick Hyman - Moritat (Theme from the Threepenny Opera)
-[playing] #35/85   1:19/3:23 (38%)
+Jo Stafford - Make Love to Me
+[playing] #2/85   1:19/4:43 (27%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-Dick Hyman - Moritat (Theme from the Threepenny Opera)
-[playing] #35/85   1:33/3:23 (45%)
+Jo Stafford - Make Love to Me
+[playing] #2/85   1:33/4:43 (32%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-Dick Hyman - Moritat (Theme from the Threepenny Opera)
-[playing] #35/85   1:47/3:23 (52%)
+Jo Stafford - Make Love to Me
+[playing] #2/85   1:47/4:43 (37%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-Dick Hyman - Moritat (Theme from the Threepenny Opera)
-[playing] #35/85   2:01/3:23 (59%)
+Jo Stafford - Make Love to Me
+[playing] #2/85   2:01/4:43 (42%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_009.MP3
-[playing] #71/85   0:03/18:04 (0%)
+Jo Stafford - Make Love to Me
+[playing] #2/85   2:15/4:43 (47%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_009.MP3
-[playing] #71/85   0:17/18:04 (1%)
+Jo Stafford - Make Love to Me
+[playing] #2/85   2:29/4:43 (52%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_009.MP3
-[playing] #71/85   0:31/18:04 (2%)
+Perez Prado and His Orchestra/ Billy Regis, trumpet solo - Cherry Pink and Apple Blossom White
+[playing] #33/85   0:05/5:32 (1%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/LINEIN/FILE_009.MP3
-[playing] #71/85   0:45/18:04 (4%)
+Perez Prado and His Orchestra/ Billy Regis, trumpet solo - Cherry Pink and Apple Blossom White
+[playing] #33/85   0:19/5:32 (5%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd16 State: idle
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd16 
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd19 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no

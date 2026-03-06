@@ -2,57 +2,52 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd17 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
 Connection successful
-Alarm --==--==--==--===: Wed Mar  4 08:30:11 PM IST 2026
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   0:06/0:00 (0%)
+Alarm --==--==--==--===: Thu Mar  5 08:30:14 PM IST 2026
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Automatic 7 - Pretty In Pink
+[playing] #2/2   0:10/0:00 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Wed Mar  4 08:30:11 PM IST 2026
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   0:06/0:00 (0%)
+Current system time is: Thu Mar  5 08:30:14 PM IST 2026
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Automatic 7 - Pretty In Pink
+[playing] #2/2   0:10/0:00 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   0:20/0:00 (0%)
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Automatic 7 - Pretty In Pink
+[playing] #2/2   0:24/0:00 (0%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   0:34/0:00 (0%)
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Automatic 7 - Pretty In Pink
+[playing] #2/2   0:38/0:00 (0%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   0:48/0:00 (0%)
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Arno - Knowing Me, Knowing You
+[playing] #2/2   0:52/0:00 (0%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   1:02/0:00 (0%)
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Arno - Knowing Me, Knowing You
+[playing] #2/2   1:06/0:00 (0%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   1:16/0:00 (0%)
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Arno - Knowing Me, Knowing You
+[playing] #2/2   1:20/0:00 (0%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   1:30/0:00 (0%)
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Arno - Knowing Me, Knowing You
+[playing] #2/2   1:34/0:00 (0%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   1:44/0:00 (0%)
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Arno - Knowing Me, Knowing You
+[playing] #2/2   1:48/0:00 (0%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   1:58/0:00 (0%)
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Arno - Knowing Me, Knowing You
+[playing] #2/2   2:02/0:00 (0%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   2:12/0:00 (0%)
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Arno - Knowing Me, Knowing You
+[playing] #2/2   2:16/0:00 (0%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   2:26/0:00 (0%)
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Arno - Knowing Me, Knowing You
+[playing] #2/2   2:30/0:00 (0%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   2:40/0:00 (0%)
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Arno - Knowing Me, Knowing You
+[playing] #2/2   2:44/0:00 (0%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-francemusiqueclassiqueplus-midfi.mp3
-[playing] #1/2   2:54/0:00 (0%)
+Covers: Just covers. Songs you know by artists you don't. [SomaFM]: Arno - Knowing Me, Knowing You
+[playing] #2/2   2:58/0:00 (0%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd17 State: idle
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd17 
-[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
 Disconnection successful
