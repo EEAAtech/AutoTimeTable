@@ -14,7 +14,9 @@
 00 22 * * 2,4,6 /home/ea/AutoTimeTable/Daily_Rosary.sh "https://www.youtube.com/@DailyRosaryandPrayerGroup" true > /home/ea/AutoTimeTable/Daily_Rosary.log 2>&1
 00 22 * * 7 /home/ea/AutoTimeTable/Daily_Rosary.sh "https://www.youtube.com/@thecatholicfaithchannel" false > /home/ea/AutoTimeTable/Sunday_Rosary.log 2>&1
 #00 22 * * 7 /home/ea/AutoTimeTable/Sunday_Rosary.sh >> /home/ea/AutoTimeTable/Sunday_Rosary.log 2>&1
-#
+# Commands at will
+# /usr/bin/adb connect "192.168.0.154" && sleep 3 && /usr/bin/adb shell am start -n com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity -a android.intent.action.VIEW -d "https://www.youtube.com/watch?v=KB6248bBan8"
+
 # To restore from backup, use:   crontab < ea_crontab.backup
 # To run crontabMgr.py after reboot, use:   source /home/ea/AutoTimeTable/Attui/bin/activate && nohup streamlit run crontabMgr.py --server.port 8503 --server.address 0.0.0.0 > crontabMgr.log 2>&1 &
 # To kill crontabMgr.py, first find its pid: ps aux | grep crontabMgr.py
