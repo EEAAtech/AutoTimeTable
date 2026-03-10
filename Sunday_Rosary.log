@@ -1,27 +1,9 @@
  
-ROSARY --==--==--==--===: Sun Feb 22 10:00:03 PM IST 2026
+ROSARY --==--==--==--===: Sun Mar  8 10:00:02 PM IST 2026
 CHANNEL_URL set to: https://www.youtube.com/@thecatholicfaithchannel
-!!!!!!!!!!!!! No Rosary video found for date: February 22 !!!!!!!!!!!!!!
-TODAY HOLY ROSARY: SUNDAY, FEBRUARY 22, 2026 - THE HOLY ROSARY SUNDAY|https://www.youtube.com/watch?v=vDApbAL65O4 TODAY HOLY ROSARY: SATURDAY, FEBRUARY 21, 2026 - THE HOLY ROSARY SATURDAY|https://www.youtube.com/watch?v=ompIexb4zsM TODAY HOLY ROSARY: FRIDAY, FEBRUARY 20, 2026 - THE HOLY ROSARY FRIDAY|https://www.youtube.com/watch?v=llVakLx0vng Our Lady of Guadalupe: A Mother’s Love and Miracle|https://www.youtube.com/shorts/kZAjbYLrAps Call to Pray Today's Holy Rosary|https://www.youtube.com/shorts/RGqd8Nexi2g
-WARNING: [youtube:tab] Unsupported lockup view model content type "LOCKUP_CONTENT_TYPE_VIDEO"; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
- 
-already connected to 192.168.0.154:5555
-
-Exception occurred while executing 'start':
-java.lang.IllegalArgumentException: Argument expected after "-d"
-	at com.android.modules.utils.BasicShellCommandHandler.getNextArgRequired(BasicShellCommandHandler.java:295)
-	at android.content.Intent.parseCommandArgs(Intent.java:7668)
-	at com.android.server.am.ActivityManagerShellCommand.makeIntent(ActivityManagerShellCommand.java:358)
-	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:457)
-	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:197)
-	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
-	at android.os.ShellCommand.exec(ShellCommand.java:38)
-	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:8727)
-	at android.os.Binder.shellCommand(Binder.java:950)
-	at android.os.Binder.onTransact(Binder.java:834)
-	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5108)
-	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2500)
-	at android.os.Binder.execTransactInternal(Binder.java:1184)
-	at android.os.Binder.execTransact(Binder.java:1143)
-sleep: invalid option -- '2'
-Try 'sleep --help' for more information.
+!!!!!!!!!!!!! No Rosary video found for date: March 8 !!!!!!!!!!!!!!
+The Video Line: 
+https://www.youtube.com/watch?v=0LeGD3ur16c 28:49
+connected to 192.168.0.154:5555
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.youtube.com/... cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
+0

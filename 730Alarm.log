@@ -2,56 +2,27 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd1 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd9 
 Connection successful
-Alarm --==--==--==--===: Fri Mar  6 07:30:13 AM IST 2026
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   0:12/3:30 (5%)
+Alarm --==--==--==--===: Tue Mar 10 08:33:35 AM IST 2026
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Fri Mar  6 07:30:13 AM IST 2026
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   0:12/3:30 (5%)
+Current system time is: Tue Mar 10 08:33:35 AM IST 2026
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   0:26/3:30 (12%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   0:40/3:30 (19%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   0:54/3:30 (25%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   1:08/3:30 (32%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   1:22/3:30 (39%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   1:36/3:30 (45%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   1:50/3:30 (52%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   2:04/3:30 (59%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   2:18/3:30 (65%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   2:32/3:30 (72%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   2:46/3:30 (79%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0031 - Beethoven - Romance for violin and orchestra in f major, op.30.Mp3
-[playing] #31/125   3:00/3:30 (85%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd1 State: idle
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd1 
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd9 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
