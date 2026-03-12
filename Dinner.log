@@ -2,57 +2,28 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd7 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd11 
 Connection successful
-Alarm --==--==--==--===: Mon Mar  9 08:30:11 PM IST 2026
-richard clayderman - hey jude
-[playing] #10/47   0:09/2:43 (5%)
+volume: 36%   repeat: off   random: on    single: off   consume: off
+MPD error: No such playlist
+loading: 
+volume: 36%   repeat: off   random: on    single: off   consume: off
+Alarm --==--==--==--===: Tue Mar 10 08:30:13 PM IST 2026
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Mon Mar  9 08:30:11 PM IST 2026
-richard clayderman - hey jude
-[playing] #10/47   0:09/2:43 (5%)
+Current system time is: Tue Mar 10 08:30:13 PM IST 2026
 volume: 15%   repeat: off   random: on    single: off   consume: off
-richard clayderman - hey jude
-[playing] #10/47   0:23/2:43 (14%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-richard clayderman - hey jude
-[playing] #10/47   0:37/2:43 (22%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-richard clayderman - hey jude
-[playing] #10/47   0:51/2:43 (31%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-richard clayderman - hey jude
-[playing] #10/47   1:05/2:43 (39%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-richard clayderman - hey jude
-[playing] #10/47   1:19/2:43 (48%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-richard clayderman - hey jude
-[playing] #10/47   1:33/2:43 (57%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-richard clayderman - hey jude
-[playing] #10/47   1:47/2:43 (65%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-richard clayderman - hey jude
-[playing] #10/47   2:01/2:43 (74%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-richard clayderman - hey jude
-[playing] #10/47   2:15/2:43 (82%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-richard clayderman - hey jude
-[playing] #10/47   2:29/2:43 (91%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-richard clayderman - hey jude
-[playing] #10/47   2:43/2:43 (100%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-richard clayderman - my way
-[playing] #38/47   0:14/3:50 (6%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd7 State: idle
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd7 
-[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
 Disconnection successful

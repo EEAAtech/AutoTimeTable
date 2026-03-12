@@ -2,55 +2,31 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd6 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd10 
 Connection successful
-Alarm --==--==--==--===: Mon Mar  9 04:50:12 PM IST 2026
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   0:09/2:56 (5%)
+volume: 75%   repeat: off   random: on    single: off   consume: off
+MPD error: No such playlist
+loading: 
+volume: 75%   repeat: off   random: on    single: off   consume: off
+Alarm --==--==--==--===: Tue Mar 10 04:50:14 PM IST 2026
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Mon Mar  9 04:50:12 PM IST 2026
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   0:09/2:56 (5%)
+Current system time is: Tue Mar 10 04:50:14 PM IST 2026
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   0:23/2:56 (13%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   0:37/2:56 (21%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   0:51/2:56 (28%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   1:05/2:56 (36%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   1:19/2:56 (44%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   1:33/2:56 (52%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   1:47/2:56 (60%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   2:01/2:56 (68%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   2:15/2:56 (76%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   2:29/2:56 (84%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   2:43/2:56 (92%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0067 Delilah.mp3
-[playing] #67/109   0:02/3:23 (0%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
-volume: 75%   repeat: off   random: on    single: off   consume: off
+volume: 36%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd6 
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd10 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no

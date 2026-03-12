@@ -38,6 +38,7 @@ echo "$VIDEO_URL"
 
 # Connect to TV
 /usr/bin/adb connect "$TV_IP"
+/usr/bin/adb shell input keyevent KEYCODE_SLEEP 
 sleep 3
 
 #Force stop Youtube  in case it had crashed earlier on the TV

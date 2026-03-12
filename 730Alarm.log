@@ -2,28 +2,57 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd9 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
 Connection successful
-Alarm --==--==--==--===: Tue Mar 10 08:33:35 AM IST 2026
+volume: 36%   repeat: off   random: on    single: off   consume: off
+loading: GreatestClassical
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   0:00/2:24 (0%)
+volume: 36%   repeat: off   random: on    single: off   consume: off
+Alarm --==--==--==--===: Thu Mar 12 07:00:14 AM IST 2026
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   0:00/2:24 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Tue Mar 10 08:33:35 AM IST 2026
+Current system time is: Thu Mar 12 07:00:14 AM IST 2026
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   0:00/2:24 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   0:14/2:24 (9%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   0:28/2:24 (19%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   0:42/2:24 (29%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   0:56/2:24 (38%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   1:10/2:24 (48%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   1:24/2:24 (58%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   1:38/2:24 (68%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   1:52/2:24 (77%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   2:06/2:24 (87%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0058 - Bach - Brandenburg concerto no.3 in g major, bwv 1048_1.Mp3
+[playing] #58/125   2:20/2:24 (97%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0063 - Bach - Concerto in d major for harpsichord, strings and b.C., bwv 1054_1.Mp3
+[playing] #63/125   0:11/3:13 (5%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
+OSDISK/GreatestClassical/0063 - Bach - Concerto in d major for harpsichord, strings and b.C., bwv 1054_1.Mp3
+[playing] #63/125   0:25/3:13 (12%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd9 
-[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
 Disconnection successful
