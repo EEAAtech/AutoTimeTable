@@ -1,21 +1,22 @@
 # m h  dom mon dow   command
-# Music alarms
+# #############  MUSIC ############
 00 7 * * 1-6 /home/ea/AutoTimeTable/ramp.sh "GreatestClassical" "3600" > /home/ea/AutoTimeTable/730Alarm.log 2>&1
 50 16 * * * /home/ea/AutoTimeTable/ramp.sh "Leonore" > /home/ea/AutoTimeTable/Tea.log 2>&1
 30 20 * * * /home/ea/AutoTimeTable/ramp.sh "Fritz" > /home/ea/AutoTimeTable/Dinner.log 2>&1
-# Daily Mass
+# #############  DAILY MASS ############
 30 12 * * 1 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@RelaxingPianoMoments" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 30 12 * * 2 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@Glory2himmusic" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 30 12 * * 3 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@BrunoCiribelli9" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 30 12 * * 4 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@Clasicos_Eternos" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 30 12 * * 6 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@NatalieRaynesMusic" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
-# Daily Rosary
+# #############  ROSARY ############
 00 22 * * 1,5 /home/ea/AutoTimeTable/Daily_Rosary.sh "https://www.youtube.com/@KristinsCrosses" false > /home/ea/AutoTimeTable/Daily_Rosary.log 2>&1
 00 22 * * 2,4,6 /home/ea/AutoTimeTable/Daily_Rosary.sh "https://www.youtube.com/@DailyRosaryandPrayerGroup" true > /home/ea/AutoTimeTable/Daily_Rosary.log 2>&1
 00 22 * * 3, /home/ea/AutoTimeTable/Daily_Rosary.sh "https://www.youtube.com/@HolyRosaryToday-t4p" false > /home/ea/AutoTimeTable/Daily_Rosary.log 2>&1
 00 22 * * 7 /home/ea/AutoTimeTable/Daily_Rosary.sh "https://www.youtube.com/@thecatholicfaithchannel" false > /home/ea/AutoTimeTable/Sunday_Rosary.log 2>&1
 #00 22 * * 7 /home/ea/AutoTimeTable/Sunday_Rosary.sh >> /home/ea/AutoTimeTable/Sunday_Rosary.log 2>&1
-# Commands at will
+# #############  ON DEMAND ############
+# /home/ea/AutoTimeTable/AudioOnlyTV.sh
 # /home/ea/AutoTimeTable/YTmusic.sh "https://www.youtube.com/@Glory2himmusic" > /home/ea/AutoTimeTable/CmdsAtWill.log 2>&1
 # /usr/bin/adb connect "192.168.0.154" && sleep 3 && /usr/bin/adb shell am start -n com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity -a android.intent.action.VIEW -d "https://www.youtube.com/watch?v=KB6248bBan8"
 

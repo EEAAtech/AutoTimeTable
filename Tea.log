@@ -1,33 +1,55 @@
  
 Attempting to connect to 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
-[[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd10 
-Connection successful
+Failed to connect: org.bluez.Error.Failed br-connection-page-timeout
 volume: 75%   repeat: off   random: on    single: off   consume: off
-MPD error: No such playlist
-loading: 
+loading: Leonore
+Frankie Ford - Sea Cruise
+[playing] #107/109   0:00/2:30 (0%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
-Alarm --==--==--==--===: Tue Mar 10 04:50:14 PM IST 2026
+Alarm --==--==--==--===: Fri Mar 13 04:50:15 PM IST 2026
+Frankie Ford - Sea Cruise
+[playing] #107/109   0:00/2:30 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Tue Mar 10 04:50:14 PM IST 2026
+Current system time is: Fri Mar 13 04:50:15 PM IST 2026
+Frankie Ford - Sea Cruise
+[playing] #107/109   0:00/2:30 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
+Frankie Ford - Sea Cruise
+[playing] #107/109   0:14/2:30 (9%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
+Frankie Ford - Sea Cruise
+[playing] #107/109   0:28/2:30 (18%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
+Frankie Ford - Sea Cruise
+[playing] #107/109   0:42/2:30 (28%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
+Frankie Ford - Sea Cruise
+[playing] #107/109   0:56/2:30 (37%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
+Frankie Ford - Sea Cruise
+[playing] #107/109   1:10/2:30 (46%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
+Frankie Ford - Sea Cruise
+[playing] #107/109   1:24/2:30 (56%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
+Frankie Ford - Sea Cruise
+[playing] #107/109   1:38/2:30 (65%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
+Frankie Ford - Sea Cruise
+[playing] #107/109   1:52/2:30 (74%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
+Frankie Ford - Sea Cruise
+[playing] #107/109   2:06/2:30 (84%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
+Frankie Ford - Sea Cruise
+[playing] #107/109   2:20/2:30 (93%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
+OSDISK/100Nostalgic/0079 Rum And Coca Cola.mp3
+[playing] #79/109   0:04/3:04 (2%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
+OSDISK/100Nostalgic/0079 Rum And Coca Cola.mp3
+[playing] #79/109   0:18/3:04 (9%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
-volume: 36%   repeat: off   random: on    single: off   consume: off
+volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd10 
-[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
 Disconnection successful
