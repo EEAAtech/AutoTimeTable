@@ -1,7 +1,8 @@
  
-ROSARY --==--==--==--===: Fri Mar 13 10:15:55 PM IST 2026
-CHANNEL_URL set to: https://www.youtube.com/@KristinsCrosses
-https://www.youtube.com/watch?v=lVDYUKUdqU0 26:31
-connected to 192.168.0.154:5555
-Starting: Intent { act=android.intent.action.VIEW dat=https://www.youtube.com/... cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
+ROSARY --==--==--==--===: Wed Mar 18 10:04:24 PM IST 2026
+CHANNEL_URL set to: https://www.youtube.com/@HolyRosaryToday-t4p
+Fr. Mike Schmitz https://www.youtube.com/watch?v=ua15l5Ozeu4
+already connected to 192.168.0.154:5555
+Starting: Intent { act=android.intent.action.VIEW dat=Fr. pkg=Mike cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
+/home/ea/AutoTimeTable/Daily_Rosary.sh: line 79: //www.youtube.com/watch?v=ua15l5Ozeu4: syntax error: operand expected (error token is "//www.youtube.com/watch?v=ua15l5Ozeu4")
 0

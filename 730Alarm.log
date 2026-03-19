@@ -2,62 +2,57 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd1 
 Connection successful
-volume: 36%   repeat: off   random: on    single: off   consume: off
+volume: 75%   repeat: off   random: on    single: off   consume: off
 loading: GreatestClassical
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   0:00/3:10 (0%)
-volume: 36%   repeat: off   random: on    single: off   consume: off
-Alarm --==--==--==--===: Sat Mar 14 08:59:51 AM IST 2026
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   0:00/3:10 (0%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   0:00/3:33 (0%)
+volume: 75%   repeat: off   random: on    single: off   consume: off
+Alarm --==--==--==--===: Thu Mar 19 07:00:11 AM IST 2026
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   0:00/3:33 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Sat Mar 14 08:59:51 AM IST 2026
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   0:00/3:10 (0%)
+Current system time is: Thu Mar 19 07:00:11 AM IST 2026
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   0:00/3:33 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   0:14/3:10 (7%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   0:14/3:33 (6%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   0:28/3:10 (14%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   0:28/3:33 (13%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   0:42/3:10 (22%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   0:42/3:33 (19%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   0:56/3:10 (29%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   0:56/3:33 (26%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   1:10/3:10 (36%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   1:10/3:33 (32%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   1:24/3:10 (44%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   1:24/3:33 (39%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   1:38/3:10 (51%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   1:38/3:33 (46%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   1:52/3:10 (58%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   1:52/3:33 (52%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   2:06/3:10 (66%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   2:06/3:33 (59%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   2:20/3:10 (73%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   2:20/3:33 (65%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   2:34/3:10 (81%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   2:34/3:33 (72%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0080 - Tchaikovsky - Piano concerto no.1 in b flat minor, op.23_1.Mp3
-[playing] #80/125   2:48/3:10 (88%)
+OSDISK/GreatestClassical/0089 - Tchaikovsky - Eugen onegin_ lenki's aria.Mp3
+[playing] #89/125   2:48/3:33 (78%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 State: idle
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
-[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
 Disconnection successful

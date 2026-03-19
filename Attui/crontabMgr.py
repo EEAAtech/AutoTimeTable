@@ -33,8 +33,8 @@ def save_crontab():
 
 # Function to extract and execute command from crontab line
 def execute_cron_line(line):
-    # Find the first occurrence of "/home"
-    start_idx = line.find("/home")
+    # Find the first occurrence of "/"
+    start_idx = line.find("/")
     if start_idx == -1:
         st.error("No executable path found in this line (must contain '/home')")
         return

@@ -20,6 +20,9 @@
 # /home/ea/AutoTimeTable/YTmusic.sh "https://www.youtube.com/@Glory2himmusic" > /home/ea/AutoTimeTable/CmdsAtWill.log 2>&1
 # /usr/bin/adb connect "192.168.0.154" && sleep 3 && /usr/bin/adb shell am start -n com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity -a android.intent.action.VIEW -d "https://www.youtube.com/watch?v=KB6248bBan8"
 
+
+
+
 # To restore from backup, use:   crontab < Attui/temp_crontab
 # To run crontabMgr.py after reboot, use:   source /home/ea/AutoTimeTable/Attui/bin/activate && nohup streamlit run crontabMgr.py --server.port 8503 --server.address 0.0.0.0 > crontabMgr.log 2>&1 &
 # To kill crontabMgr.py, first find its pid: ps aux | grep crontabMgr.py

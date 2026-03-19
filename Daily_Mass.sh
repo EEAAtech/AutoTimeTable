@@ -11,7 +11,7 @@ TODAY_STR=$(date "+%B %-d")
 VIDEO_LINE=$(yt-dlp \
   --flat-playlist \
   --playlist-items 1-3 \
-  --print "%(title)s|%(webpage_url)s|%(duration_string)s" \
+  --print "%(title)s$%(webpage_url)s$%(duration_string)s" \
   "$CHANNEL_URL" | grep "$TODAY_STR" | head -n 1)
 
 
@@ -27,8 +27,8 @@ echo $(yt-dlp \
 fi
 
 # Extract ID
-VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'|' -f3 | xargs)
-DURATION_STR=$(echo "$VIDEO_LINE" | cut -d'|' -f4 | xargs)
+VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'$' -f3 | xargs)
+DURATION_STR=$(echo "$VIDEO_LINE" | cut -d'$' -f4 | xargs)
 IFS=':' read -r minutes seconds <<< "$DURATION_STR"
 
 echo "MASS --==--==--==--===: $(date)"

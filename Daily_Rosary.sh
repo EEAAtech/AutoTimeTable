@@ -24,7 +24,7 @@ TODAY_STR=$(date "+%B %-d")
 
 # Fetch recent videos: title + id
 # VIDEO_LINE=$(yt-dlp --flat-playlist --playlist-items 1-3 --print "%(title)s|%(webpage_url)s" "$CHANNEL_URL" | grep "$TODAY_STR" | head -n 1)
-VIDEO_LINE=$(yt-dlp --flat-playlist --playlist-items 1-3 --print "%(title)s|%(webpage_url)s|%(duration_string)s" "$CHANNEL_URL" | grep "$TODAY_STR" | grep "Rosary" | head -n 1)
+VIDEO_LINE=$(yt-dlp --flat-playlist --playlist-items 1-3 --print "%(title)s$%(webpage_url)s$%(duration_string)s" "$CHANNEL_URL" | grep "$TODAY_STR" | grep "Rosary" | head -n 1)
 
 
 # Safety check
@@ -37,8 +37,8 @@ echo "The Video Line: $VIDEO_LINE"
 fi
 
 # Extract ID
-VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'|' -f2 | xargs)
-DURATION_STR=$(echo "$VIDEO_LINE" | cut -d'|' -f3 | xargs)
+VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'$' -f2 | xargs)
+DURATION_STR=$(echo "$VIDEO_LINE" | cut -d'$' -f3 | xargs)
 
 IFS=':' read -r minutes seconds <<< "$DURATION_STR"
 echo "$VIDEO_URL" "$DURATION_STR"
