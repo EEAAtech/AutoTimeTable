@@ -23,7 +23,10 @@ TV_IP="192.168.0.154"
 TODAY_STR=$(date "+%B %-d")
 
 # Fetch recent videos: title + id
-# VIDEO_LINE=$(yt-dlp --flat-playlist --playlist-items 1-3 --print "%(title)s|%(webpage_url)s" "$CHANNEL_URL" | grep "$TODAY_STR" | head -n 1)
+
+FETCH_MASS_CMD="yt-dlp --flat-playlist --playlist-items 1-3 --print \"%(title)s\$%(webpage_url)s\$%(duration_string)s\" \"$CHANNEL_URL\" | grep \"$TODAY_STR\" | grep "Rosary" | head -n 1"
+echo "Fetch Rosary Command: $FETCH_MASS_CMD"
+
 VIDEO_LINE=$(yt-dlp --flat-playlist --playlist-items 1-3 --print "%(title)s$%(webpage_url)s$%(duration_string)s" "$CHANNEL_URL" | grep "$TODAY_STR" | grep "Rosary" | head -n 1)
 
 
