@@ -1,8 +1,9 @@
  
-ROSARY --==--==--==--===: Wed Mar 18 10:04:24 PM IST 2026
-CHANNEL_URL set to: https://www.youtube.com/@HolyRosaryToday-t4p
-Fr. Mike Schmitz https://www.youtube.com/watch?v=ua15l5Ozeu4
-already connected to 192.168.0.154:5555
-Starting: Intent { act=android.intent.action.VIEW dat=Fr. pkg=Mike cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity }
-/home/ea/AutoTimeTable/Daily_Rosary.sh: line 79: //www.youtube.com/watch?v=ua15l5Ozeu4: syntax error: operand expected (error token is "//www.youtube.com/watch?v=ua15l5Ozeu4")
-0
+ROSARY --==--==--==--===: Sat May  9 10:00:03 PM IST 2026
+CHANNEL_URL set to: https://www.youtube.com/@DailyRosaryandPrayerGroup
+WARNING: [youtube:tab] Unsupported lockup view model content type "LOCKUP_CONTENT_TYPE_VIDEO"; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+!!!!!!!!!!!!! No Rosary video found for date: May 9 !!!!!!!!!!!!!!
+The Video Line: 
+WARNING: [youtube:tab] Unsupported lockup view model content type "LOCKUP_CONTENT_TYPE_VIDEO"; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+ 
+!!!!!!!!!!!!! Failsafe also failed:   !!!!!!!!!!!!!!

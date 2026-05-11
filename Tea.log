@@ -1,55 +1,62 @@
  
 Attempting to connect to 6C:5A:B5:E0:9D:2B
-Failed to connect: org.bluez.Error.Failed br-connection-page-timeout
-volume:  1%   repeat: off   random: on    single: off   consume: off
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
+[[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd2 
+Connection successful
+volume: 75%   repeat: off   random: on    single: off   consume: off
 loading: Leonore
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   0:00/3:29 (0%)
-volume:  1%   repeat: off   random: on    single: off   consume: off
-Alarm --==--==--==--===: Wed Mar 18 04:50:16 PM IST 2026
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   0:00/3:29 (0%)
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   0:00/2:42 (0%)
+volume: 75%   repeat: off   random: on    single: off   consume: off
+Alarm --==--==--==--===: Sun May 10 04:50:13 PM IST 2026
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   0:00/2:42 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Wed Mar 18 04:50:16 PM IST 2026
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   0:00/3:29 (0%)
+Current system time is: Sun May 10 04:50:13 PM IST 2026
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   0:00/2:42 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   0:14/3:29 (6%)
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   0:14/2:42 (8%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   0:28/3:29 (13%)
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   0:28/2:42 (17%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   0:42/3:29 (20%)
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   0:42/2:42 (25%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   0:56/3:29 (26%)
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   0:56/2:42 (34%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   1:10/3:29 (33%)
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   1:10/2:42 (43%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   1:24/3:29 (40%)
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   1:24/2:42 (51%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   1:38/3:29 (46%)
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   1:38/2:42 (60%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   1:52/3:29 (53%)
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   1:52/2:42 (69%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   2:06/3:29 (60%)
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   2:06/2:42 (77%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   2:20/3:29 (66%)
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   2:20/2:42 (86%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   2:34/3:29 (73%)
+OSDISK/100Nostalgic/0051 Roses Are Red (My Love).mp3
+[playing] #51/109   2:34/2:42 (95%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0033 Mona Lisa.mp3
-[playing] #33/109   2:48/3:29 (80%)
+OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
+[playing] #54/109   0:06/2:55 (3%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd2 
+[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
 Disconnection successful

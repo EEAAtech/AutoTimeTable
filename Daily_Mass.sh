@@ -7,6 +7,11 @@ MUSIC_URL="$1"
 # Generate today's date string in title format (IST assumed on Pi)
 TODAY_STR=$(date "+%B %-d")
 
+FETCH_MASS_CMD="yt-dlp --flat-playlist --playlist-items 1-3 --print \"%(title)s\$%(webpage_url)s\$%(duration_string)s\" \"$CHANNEL_URL\" | grep \"$TODAY_STR\" | head -n 1"
+echo "Fetch Mass Command: $FETCH_MASS_CMD"
+
+
+
 # Fetch recent videos: title + id
 VIDEO_LINE=$(yt-dlp \
   --flat-playlist \
@@ -27,14 +32,14 @@ echo $(yt-dlp \
 fi
 
 # Extract ID
-VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'$' -f3 | xargs)
-DURATION_STR=$(echo "$VIDEO_LINE" | cut -d'$' -f4 | xargs)
+VIDEO_URL=$(echo "$VIDEO_LINE" | cut -d'$' -f2 | xargs)
+DURATION_STR=$(echo "$VIDEO_LINE" | cut -d'$' -f3 | xargs)
 IFS=':' read -r minutes seconds <<< "$DURATION_STR"
 
 echo "MASS --==--==--==--===: $(date)"
-#echo "$VIDEO_LINE"rm 
-echo "$VIDEO_URL"  
-# exit 0
+echo "Vid Line: $VIDEO_LINE"
+echo "Mass URL: $VIDEO_URL"  
+#exit 0
 
 # Connect to TV
 /usr/bin/adb connect "$TV_IP"
