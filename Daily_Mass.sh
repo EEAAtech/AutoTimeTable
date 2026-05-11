@@ -13,6 +13,7 @@ echo "Fetch Mass Command: $FETCH_MASS_CMD"
 
 
 # Fetch recent videos: title + id
+
 VIDEO_LINE=$(yt-dlp \
   --flat-playlist \
   --playlist-items 1-3 \
@@ -39,7 +40,7 @@ IFS=':' read -r minutes seconds <<< "$DURATION_STR"
 echo "MASS --==--==--==--===: $(date)"
 echo "Vid Line: $VIDEO_LINE"
 echo "Mass URL: $VIDEO_URL"  
-#exit 0
+# exit 0
 
 # Connect to TV
 /usr/bin/adb connect "$TV_IP"

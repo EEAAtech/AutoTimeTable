@@ -1,7 +1,5 @@
  
-WARNING: [youtube:tab] Unsupported lockup view model content type "LOCKUP_CONTENT_TYPE_VIDEO"; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
-Fetch Mass Command: 
-WARNING: [youtube:tab] Unsupported lockup view model content type "LOCKUP_CONTENT_TYPE_VIDEO"; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
-!!!!!!!!!!!!! No Mass video found for date: May 9 !!!!!!!!!!!!!!
-WARNING: [youtube:tab] Unsupported lockup view model content type "LOCKUP_CONTENT_TYPE_VIDEO"; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
-A Homily Moment with Father Michael Coutts S.J.|https://www.youtube.com/shorts/XdHCNf8X-4E A Homily Moment with Father Henk van Meijel S.J.|https://www.youtube.com/shorts/Tj9QOECfhM0 A Homily Moment with Father Peter Turrone|https://www.youtube.com/shorts/fEKDP5_wFKE
+Fetch Mass Command: yt-dlp --flat-playlist --playlist-items 1-3 --print "%(title)s$%(webpage_url)s$%(duration_string)s" "https://www.youtube.com/@DailyTVMass" | grep "May 11" | head -n 1
+MASS --==--==--==--===: Mon May 11 05:14:21 PM IST 2026
+Vid Line: Catholic Mass Today | Daily TV Mass, Monday May 11, 2026$https://www.youtube.com/watch?v=5ICwq8jAKAs$29:02
+Mass URL: https://www.youtube.com/watch?v=5ICwq8jAKAs
