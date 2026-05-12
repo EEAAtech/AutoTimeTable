@@ -24,10 +24,10 @@ TODAY_STR=$(date "+%B %-d")
 
 # Fetch recent videos: title + id
 
-FETCH_MASS_CMD="yt-dlp --flat-playlist --playlist-items 1-3 --print \"%(title)s\$%(webpage_url)s\$%(duration_string)s\" \"$CHANNEL_URL\" | grep \"$TODAY_STR\" | grep "Rosary" | head -n 1"
+FETCH_MASS_CMD="/usr/local/bin/yt-dlp --flat-playlist --playlist-items 1-3 --print \"%(title)s\$%(webpage_url)s\$%(duration_string)s\" \"$CHANNEL_URL\" | grep \"$TODAY_STR\" | grep "Rosary" | head -n 1"
 echo "Fetch Rosary Command: $FETCH_MASS_CMD"
 
-VIDEO_LINE=$(yt-dlp --flat-playlist --playlist-items 1-3 --print "%(title)s$%(webpage_url)s$%(duration_string)s" "$CHANNEL_URL" | grep "$TODAY_STR" | grep "Rosary" | head -n 1)
+VIDEO_LINE=$(/usr/local/bin/yt-dlp --flat-playlist --playlist-items 1-3 --print "%(title)s$%(webpage_url)s$%(duration_string)s" "$CHANNEL_URL" | grep "$TODAY_STR" | grep "Rosary" | head -n 1)
 
 
 # Safety check
@@ -36,7 +36,7 @@ if [ -z "$VIDEO_LINE" ]; then
 echo "The Video Line: $VIDEO_LINE"
   
   # If no video found, try again without the "Rosary" filter, in case the title format changed
-  VIDEO_LINE=$(yt-dlp --flat-playlist --playlist-items 1 --print "%(title)s|%(webpage_url)s|%(duration_string)s" "$CHANNEL_URL" )
+  VIDEO_LINE=$(/usr/local/bin/yt-dlp --flat-playlist --playlist-items 1 --print "%(title)s|%(webpage_url)s|%(duration_string)s" "$CHANNEL_URL" )
 fi
 
 # Extract ID

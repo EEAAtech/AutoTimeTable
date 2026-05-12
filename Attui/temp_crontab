@@ -5,7 +5,7 @@
 30 20 * * * /home/ea/AutoTimeTable/ramp.sh "Fritz" > /home/ea/AutoTimeTable/Dinner.log 2>&1
 # #############  DAILY MASS ############
 30 12 * * 1 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@RelaxingPianoMoments" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
-30 12 * * 2 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@Glory2himmusic" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
+#30 12 * * 2 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@Glory2himmusic" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 30 12 * * 3 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@BrunoCiribelli9" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 30 12 * * 4 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@Clasicos_Eternos" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1
 30 12 * * 6 /home/ea/AutoTimeTable/Daily_Mass.sh "https://www.youtube.com/@NatalieRaynesMusic" > /home/ea/AutoTimeTable/Daily_Mass.log 2>&1

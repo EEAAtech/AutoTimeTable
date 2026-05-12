@@ -7,14 +7,14 @@ MUSIC_URL="$1"
 # Generate today's date string in title format (IST assumed on Pi)
 TODAY_STR=$(date "+%B %-d")
 
-FETCH_MASS_CMD="yt-dlp --flat-playlist --playlist-items 1-3 --print \"%(title)s\$%(webpage_url)s\$%(duration_string)s\" \"$CHANNEL_URL\" | grep \"$TODAY_STR\" | head -n 1"
+FETCH_MASS_CMD="/usr/local/bin/yt-dlp --flat-playlist --playlist-items 1-3 --print \"%(title)s\$%(webpage_url)s\$%(duration_string)s\" \"$CHANNEL_URL\" | grep \"$TODAY_STR\" | head -n 1"
 echo "Fetch Mass Command: $FETCH_MASS_CMD"
 
 
 
 # Fetch recent videos: title + id
 
-VIDEO_LINE=$(yt-dlp \
+VIDEO_LINE=$(/usr/local/bin/yt-dlp \
   --flat-playlist \
   --playlist-items 1-3 \
   --print "%(title)s$%(webpage_url)s$%(duration_string)s" \
@@ -24,7 +24,7 @@ VIDEO_LINE=$(yt-dlp \
 # Safety check
 if [ -z "$VIDEO_LINE" ]; then
   echo "!!!!!!!!!!!!! No Mass video found for date: $TODAY_STR !!!!!!!!!!!!!!"
-echo $(yt-dlp \
+echo $(/usr/local/bin/yt-dlp \
   --flat-playlist \
   --playlist-items 1-3 \
   --print "%(title)s|%(webpage_url)s" \
