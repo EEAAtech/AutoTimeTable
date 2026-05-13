@@ -21,7 +21,8 @@ TAGS = [
     "#$Finance",
     "#$Music",
     "#$Modx",
-    "#$Logic"
+    "#$Logic",
+    "#$TTM"
 ]
 
 @st.cache_resource
