@@ -6,55 +6,56 @@ Attempting to connect to 6C:5A:B5:E0:9D:2B
 Connection successful
 volume: 73%   repeat: off   random: on    single: off   consume: off
 loading: Fritz
-richard clayderman - i will always love you
-[playing] #35/47   0:00/4:07 (0%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   0:00/3:08 (0%)
 volume: 73%   repeat: off   random: on    single: off   consume: off
-Alarm --==--==--==--===: Mon May 11 08:30:11 PM IST 2026
-richard clayderman - i will always love you
-[playing] #35/47   0:00/4:07 (0%)
+Alarm --==--==--==--===: Tue May 12 08:30:11 PM IST 2026
+richard clayderman - bridge over troubles water
+[playing] #27/47   0:00/3:08 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Mon May 11 08:30:11 PM IST 2026
-richard clayderman - i will always love you
-[playing] #35/47   0:00/4:07 (0%)
+Current system time is: Tue May 12 08:30:11 PM IST 2026
+richard clayderman - bridge over troubles water
+[playing] #27/47   0:00/3:08 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-richard clayderman - i will always love you
-[playing] #35/47   0:14/4:07 (5%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   0:14/3:08 (7%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-richard clayderman - i will always love you
-[playing] #35/47   0:28/4:07 (11%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   0:28/3:08 (14%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-richard clayderman - i will always love you
-[playing] #35/47   0:42/4:07 (17%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   0:42/3:08 (22%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-richard clayderman - i will always love you
-[playing] #35/47   0:56/4:07 (22%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   0:56/3:08 (29%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-richard clayderman - i will always love you
-[playing] #35/47   1:10/4:07 (28%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   1:10/3:08 (37%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-richard clayderman - i will always love you
-[playing] #35/47   1:24/4:07 (34%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   1:24/3:08 (44%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-richard clayderman - i will always love you
-[playing] #35/47   1:38/4:07 (39%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   1:38/3:08 (52%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-richard clayderman - i will always love you
-[playing] #35/47   1:52/4:07 (45%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   1:52/3:08 (59%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-richard clayderman - i will always love you
-[playing] #35/47   2:06/4:07 (51%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   2:06/3:08 (67%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-richard clayderman - i will always love you
-[playing] #35/47   2:20/4:07 (56%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   2:20/3:08 (74%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-richard clayderman - i will always love you
-[playing] #35/47   2:34/4:07 (62%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   2:34/3:08 (81%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-richard clayderman - i will always love you
-[playing] #35/47   2:48/4:07 (68%)
+richard clayderman - bridge over troubles water
+[playing] #27/47   2:48/3:08 (89%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
+[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 State: idle
 [[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no

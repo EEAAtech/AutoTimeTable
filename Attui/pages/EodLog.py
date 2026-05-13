@@ -5,7 +5,7 @@ from github.GithubException import UnknownObjectException
 import datetime
 import re
 
-# Configuration - IMPORTANT: Replace these with your actual details or use environment variables/Streamlit secrets
+# Configuration -  IMPORTANT: Replace these with your actual details or use environment variables/Streamlit secrets
 # It is highly recommended to use st.secrets for the PAT in production
 GITHUB_PAT = os.environ.get("GITHUB_PAT") or st.secrets.get("GITHUB_PAT")
 REPO_NAME = os.environ.get("GITHUB_REPO") or st.secrets.get("GITHUB_REPO") # Format: "username/repo-name"
