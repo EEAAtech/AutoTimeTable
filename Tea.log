@@ -6,56 +6,55 @@ Attempting to connect to 6C:5A:B5:E0:9D:2B
 Connection successful
 volume: 73%   repeat: off   random: on    single: off   consume: off
 loading: Leonore
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   0:00/2:56 (0%)
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   0:00/2:45 (0%)
 volume: 73%   repeat: off   random: on    single: off   consume: off
-Alarm --==--==--==--===: Wed May 13 04:50:11 PM IST 2026
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   0:00/2:56 (0%)
+Alarm --==--==--==--===: Thu May 14 04:50:15 PM IST 2026
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   0:00/2:45 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Wed May 13 04:50:11 PM IST 2026
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   0:00/2:56 (0%)
+Current system time is: Thu May 14 04:50:15 PM IST 2026
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   0:00/2:45 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   0:14/2:56 (7%)
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   0:14/2:45 (8%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   0:28/2:56 (15%)
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   0:28/2:45 (16%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   0:42/2:56 (23%)
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   0:42/2:45 (25%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   0:56/2:56 (31%)
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   0:56/2:45 (33%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   1:10/2:56 (39%)
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   1:10/2:45 (42%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   1:24/2:56 (47%)
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   1:24/2:45 (50%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   1:38/2:56 (55%)
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   1:38/2:45 (59%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   1:52/2:56 (63%)
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   1:52/2:45 (67%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   2:06/2:56 (71%)
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   2:06/2:45 (76%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   2:20/2:56 (79%)
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   2:20/2:45 (84%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   2:34/2:56 (87%)
+OSDISK/100Nostalgic/0021 Yesterday.mp3
+[playing] #21/109   2:34/2:45 (93%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
-[playing] #26/109   2:48/2:56 (95%)
+OSDISK/100Nostalgic/0059 Ain't No Sunshine.mp3
+[playing] #59/109   0:03/2:00 (2%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 State: idle
 [[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no

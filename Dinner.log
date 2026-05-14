@@ -2,61 +2,54 @@
 Attempting to connect to 6C:5A:B5:E0:9D:2B
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
 [[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd1 
 Connection successful
-volume: 73%   repeat: off   random: on    single: off   consume: off
+volume: 75%   repeat: off   random: on    single: off   consume: off
 loading: Fritz
-richard clayderman - dancing queen
-[playing] #7/47   0:00/3:44 (0%)
-volume: 73%   repeat: off   random: on    single: off   consume: off
-Alarm --==--==--==--===: Wed May 13 08:30:10 PM IST 2026
-richard clayderman - dancing queen
-[playing] #7/47   0:00/3:44 (0%)
+richard clayderman - exodus
+[playing] #42/47   0:00/2:57 (0%)
+volume: 75%   repeat: off   random: on    single: off   consume: off
+Alarm --==--==--==--===: Thu May 14 08:30:14 PM IST 2026
+richard clayderman - exodus
+[playing] #42/47   0:00/2:57 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Wed May 13 08:30:10 PM IST 2026
-richard clayderman - dancing queen
-[playing] #7/47   0:00/3:44 (0%)
+Current system time is: Thu May 14 08:30:14 PM IST 2026
+richard clayderman - exodus
+[playing] #42/47   0:00/2:57 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-richard clayderman - dancing queen
-[playing] #7/47   0:14/3:44 (6%)
+richard clayderman - exodus
+[playing] #42/47   0:14/2:57 (7%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-richard clayderman - dancing queen
-[playing] #7/47   0:28/3:44 (12%)
+richard clayderman - exodus
+[playing] #42/47   0:28/2:57 (15%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-richard clayderman - dancing queen
-[playing] #7/47   0:42/3:44 (18%)
+richard clayderman - exodus
+[playing] #42/47   0:42/2:57 (23%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-richard clayderman - dancing queen
-[playing] #7/47   0:56/3:44 (25%)
+richard clayderman - exodus
+[playing] #42/47   0:56/2:57 (31%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-richard clayderman - dancing queen
-[playing] #7/47   1:10/3:44 (31%)
+richard clayderman - exodus
+[playing] #42/47   1:10/2:57 (39%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-richard clayderman - dancing queen
-[playing] #7/47   1:24/3:44 (37%)
+richard clayderman - exodus
+[playing] #42/47   1:24/2:57 (47%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-richard clayderman - dancing queen
-[playing] #7/47   1:38/3:44 (43%)
+richard clayderman - exodus
+[playing] #42/47   1:38/2:57 (55%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-richard clayderman - dancing queen
-[playing] #7/47   1:52/3:44 (50%)
+richard clayderman - exodus
+[playing] #42/47   1:52/2:57 (63%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-richard clayderman - dancing queen
-[playing] #7/47   2:06/3:44 (56%)
+richard clayderman - exodus
+[playing] #42/47   2:06/2:57 (71%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-richard clayderman - dancing queen
-[playing] #7/47   2:20/3:44 (62%)
+richard clayderman - exodus
+[playing] #42/47   2:20/2:57 (79%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-richard clayderman - dancing queen
-[playing] #7/47   2:34/3:44 (68%)
+richard clayderman - exodus
+[playing] #42/47   2:34/2:57 (87%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-richard clayderman - dancing queen
-[playing] #7/47   2:48/3:44 (75%)
+richard clayderman - exodus
+[playing] #42/47   2:48/2:57 (94%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
-volume: 75%   repeat: off   random: on    single: off   consume: off
-Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
-[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
-Disconnection successful

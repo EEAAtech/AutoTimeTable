@@ -22,8 +22,8 @@ TAGS = [
     "#$Music",
     "#$Modx",
     "#$Logic",
-    "#$Maintenance",
     "#$Friends",
+    "#$Maintenance",
     "#$Mental/Study/NapoleonHill15LawsOfSuccess",
     "#$TTM"
 ]
@@ -55,15 +55,30 @@ def load_data_from_github(repo, file_path):
         
         lines = file_content.splitlines()
         for line in lines:
-            if "#$EodLog" in line:
-                matching_tags = [tag for tag in TAGS if tag in line]
-                if matching_tags:
-                    target_tag = matching_tags[-1]
-                    data[target_tag] = re.sub(r'\s*#\$Disrupt\s+.*?(?=\s+#\$)', '', line).strip()
-                    
-                    disrupt_match = re.search(r'#\$Disrupt\s+(.*?)\s+(#\$[^\s]+)', line)
-                    if disrupt_match:
-                        selected_tags[target_tag] = disrupt_match.group(1)
+            if "#$Disrupt ->" in line:
+                target_match = re.search(r'#\$Disrupt\s*->\s*(#\$[^\s]+)', line)
+
+                if target_match:
+                    target_tag = target_match.group(1)
+
+                    if target_tag in TAGS:
+                        cleaned_line = re.sub(
+                            r'\s*#\$Disrupt\s*->\s*#\$[^\s]+',
+                            '',
+                            line
+                        ).strip()
+
+                        cleaned_line = re.sub(
+                            r'^-\s*(#\$[^\s]+)\s+',
+                            '- ',
+                            cleaned_line
+                        ).strip()
+
+                        data[target_tag] = cleaned_line
+
+                        source_match = re.match(r'^-\s*(#\$[^\s]+)', line)
+                        if source_match:
+                            selected_tags[target_tag] = source_match.group(1)
                         
     except UnknownObjectException:
         st.warning(f"File {file_path} not found in the repository. A new one will be created upon saving.")
@@ -92,53 +107,56 @@ def save_data_to_github(repo, file_path, original_content, file_sha, current_inp
         
         for line in lines:
             line_updated = False
-            if "#$EodLog" in line:
-                for tag in TAGS:
-                    if tag in line:
-                        # Replace the line with the new input if it exists
-                        new_val = pending_updates.get(tag, "").strip()
-                        selected_disrupt = selected_dropdowns.get(tag, "").strip()
-                        
+
+            if "#$Disrupt ->" in line:
+                target_match = re.search(r'#\$Disrupt\s*->\s*(#\$[^\s]+)', line)
+
+                if target_match:
+                    target_tag = target_match.group(1)
+
+                    if target_tag in TAGS:
+                        new_val = pending_updates.get(target_tag, "").strip()
+                        selected_disrupt = selected_dropdowns.get(target_tag, "").strip()
+
                         if new_val:
                             formatted_val = new_val
+
                             if "#$EodLog" not in formatted_val:
                                 formatted_val = f"{formatted_val} #$EodLog"
-                            if selected_disrupt:
-                                formatted_val = f"{formatted_val} #$Disrupt {selected_disrupt}"
-                            if tag not in formatted_val:
-                                formatted_val = f"{formatted_val} {tag}"
 
-                            # Apply prefix to existing line update
+                            if selected_disrupt:
+                                formatted_val = f"{selected_disrupt} {formatted_val} #$Disrupt -> {tag}"
+                            else:
+                                if tag not in formatted_val:
+                                    formatted_val = f"{formatted_val} {tag}"
+
                             new_lines.append(ensure_bullet_prefix(formatted_val))
-                            del pending_updates[tag] # Mark as processed
+                            del pending_updates[target_tag]
                         else:
-                            # If input is empty, maybe keep original or remove? 
-                            # Sticking to "replace by values of text box", if empty, it becomes empty string (effectively removing it if we don't append)
-                            # Let's append the empty string or skip if we want to delete. Let's just update to empty if user cleared it.
-                            new_lines.append("") 
-                            if tag in pending_updates:
-                                del pending_updates[tag]
+                            new_lines.append("")
+                            if target_tag in pending_updates:
+                                del pending_updates[target_tag]
+
                         line_updated = True
-                        break # Moved to next line in original file
                         
             if not line_updated:
                 new_lines.append(line)
                 
         for tag, val in pending_updates.items():
             if val.strip():
-                # If the user typed something but the tag wasn't in the file before, append it
-                # We need to ensure it has #$EodLog and the tag if the user didn't type it
                 formatted_val = val.strip()
+
+                selected_disrupt = selected_dropdowns.get(tag, "").strip()
+
                 if "#$EodLog" not in formatted_val:
                     formatted_val = f"{formatted_val} #$EodLog"
-                
-                selected_disrupt = selected_dropdowns.get(tag, "").strip()
-                if selected_disrupt:
-                    formatted_val = f"{formatted_val} #$Disrupt {selected_disrupt}"
 
-                if tag not in formatted_val:
-                    formatted_val = f"{formatted_val} {tag}"
-                # Apply prefix to new appended line
+                if selected_disrupt:
+                    formatted_val = f"{selected_disrupt} {formatted_val} #$Disrupt -> {tag}"
+                else:
+                    if tag not in formatted_val:
+                        formatted_val = f"{formatted_val} {tag}"
+
                 new_lines.append(ensure_bullet_prefix(formatted_val))
                 
         updated_content = "\n".join(new_lines)
@@ -146,17 +164,20 @@ def save_data_to_github(repo, file_path, original_content, file_sha, current_inp
         for tag, val in current_inputs.items():
             if val.strip():
                 formatted_val = val.strip()
+
+                selected_disrupt = selected_dropdowns.get(tag, "").strip()
+
                 if "#$EodLog" not in formatted_val:
                     formatted_val = f"{formatted_val} #$EodLog"
 
-                selected_disrupt = selected_dropdowns.get(tag, "").strip()
                 if selected_disrupt:
-                    formatted_val = f"{formatted_val} #$Disrupt {selected_disrupt}"
+                    formatted_val = f"{selected_disrupt} {formatted_val} #$Disrupt -> {tag}"
+                else:
+                    if tag not in formatted_val:
+                        formatted_val = f"{formatted_val} {tag}"                
 
-                if tag not in formatted_val:
-                    formatted_val = f"{formatted_val} {tag}"
-                # Apply prefix to new file content
                 new_lines.append(ensure_bullet_prefix(formatted_val))
+
         updated_content = "\n".join(new_lines)
 
     commit_message = f"Eod log for {selected_date.strftime('%Y-%m-%d')}"
@@ -212,6 +233,7 @@ def main():
     selected_dropdowns = {}
 
     st.write("---")
+
     for tag in TAGS:
         label_col, dropdown_col = st.columns([3, 2])
 
@@ -219,10 +241,14 @@ def main():
             st.markdown(f"**{tag}**")
 
         with dropdown_col:
+            dropdown_options = [""] + TAGS
+
             selected_dropdowns[tag] = st.selectbox(
                 "",
-                [""] + TAGS,
-                index=([""] + TAGS).index(st.session_state.selected_tags.get(tag, "")),
+                dropdown_options,
+                index=dropdown_options.index(
+                    st.session_state.selected_tags.get(tag, "")
+                ) if st.session_state.selected_tags.get(tag, "") in dropdown_options else 0,
                 key=f"dropdown_{tag}",
                 label_visibility="collapsed"
             )
@@ -240,6 +266,7 @@ def main():
         # Align button with date picker somewhat
         st.write("") 
         st.write("")
+
         if st.button("Save", type="primary", use_container_width=True):
             with st.spinner("Saving to GitHub..."):
                 save_data_to_github(
@@ -251,8 +278,10 @@ def main():
                     selected_dropdowns,
                     selected_date
                 )
+
                 # Refresh data after save to get new SHA
                 data, selected_tags, original_content, file_sha = load_data_from_github(repo, file_path)
+
                 st.session_state.data = data
                 st.session_state.selected_tags = selected_tags
                 st.session_state.original_content = original_content
