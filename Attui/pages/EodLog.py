@@ -5,7 +5,7 @@ from github.GithubException import UnknownObjectException
 import datetime
 import re
 
-# Configuration -  IMPORTANT: Replace these with your actual details or use environment variables/Streamlit secrets
+# Configuration - IMPORTANT: Replace these with your actual details or use environment variables/Streamlit secrets
 # It is highly recommended to use st.secrets for the PAT in production
 GITHUB_PAT = os.environ.get("GITHUB_PAT") or st.secrets.get("GITHUB_PAT")
 REPO_NAME = os.environ.get("GITHUB_REPO") or st.secrets.get("GITHUB_REPO") # Format: "username/repo-name"
@@ -22,6 +22,9 @@ TAGS = [
     "#$Music",
     "#$Modx",
     "#$Logic",
+    "#$Maintenance",
+    "#$Friends",
+    "#$Mental/Study/NapoleonHill15LawsOfSuccess",
     "#$TTM"
 ]
 
@@ -41,6 +44,7 @@ def get_file_path(selected_date):
 def load_data_from_github(repo, file_path):
     """Loads content from the specified markdown file in the repo."""
     data = {tag: "" for tag in TAGS}
+    selected_tags = {tag: "" for tag in TAGS}
     file_content = ""
     sha = None
     
@@ -52,19 +56,21 @@ def load_data_from_github(repo, file_path):
         lines = file_content.splitlines()
         for line in lines:
             if "#$EodLog" in line:
-                for tag in TAGS:
-                    if tag in line:
-                        # Extract the text after the tag and #$EodLog, or the whole line depending on format
-                        # Here we load the entire line for the user to edit
-                        data[tag] = line
-                        break # Assume one tag per line based on description
+                matching_tags = [tag for tag in TAGS if tag in line]
+                if matching_tags:
+                    target_tag = matching_tags[-1]
+                    data[target_tag] = re.sub(r'\s*#\$Disrupt\s+.*?(?=\s+#\$)', '', line).strip()
+                    
+                    disrupt_match = re.search(r'#\$Disrupt\s+(.*?)\s+(#\$[^\s]+)', line)
+                    if disrupt_match:
+                        selected_tags[target_tag] = disrupt_match.group(1)
                         
     except UnknownObjectException:
         st.warning(f"File {file_path} not found in the repository. A new one will be created upon saving.")
     except Exception as e:
         st.error(f"Error reading file: {e}")
 
-    return data, file_content, sha
+    return data, selected_tags, file_content, sha
 
 def ensure_bullet_prefix(text):
     """Ensures the string starts with '- ' if it isn't already."""
@@ -75,7 +81,7 @@ def ensure_bullet_prefix(text):
         return text
     return f"- {text}"
 
-def save_data_to_github(repo, file_path, original_content, file_sha, current_inputs, selected_date):
+def save_data_to_github(repo, file_path, original_content, file_sha, current_inputs, selected_dropdowns, selected_date):
     """Updates or creates the markdown file with new text box values."""
     new_lines = []
     
@@ -91,9 +97,19 @@ def save_data_to_github(repo, file_path, original_content, file_sha, current_inp
                     if tag in line:
                         # Replace the line with the new input if it exists
                         new_val = pending_updates.get(tag, "").strip()
+                        selected_disrupt = selected_dropdowns.get(tag, "").strip()
+                        
                         if new_val:
+                            formatted_val = new_val
+                            if "#$EodLog" not in formatted_val:
+                                formatted_val = f"{formatted_val} #$EodLog"
+                            if selected_disrupt:
+                                formatted_val = f"{formatted_val} #$Disrupt {selected_disrupt}"
+                            if tag not in formatted_val:
+                                formatted_val = f"{formatted_val} {tag}"
+
                             # Apply prefix to existing line update
-                            new_lines.append(ensure_bullet_prefix(new_val))
+                            new_lines.append(ensure_bullet_prefix(formatted_val))
                             del pending_updates[tag] # Mark as processed
                         else:
                             # If input is empty, maybe keep original or remove? 
@@ -115,6 +131,11 @@ def save_data_to_github(repo, file_path, original_content, file_sha, current_inp
                 formatted_val = val.strip()
                 if "#$EodLog" not in formatted_val:
                     formatted_val = f"{formatted_val} #$EodLog"
+                
+                selected_disrupt = selected_dropdowns.get(tag, "").strip()
+                if selected_disrupt:
+                    formatted_val = f"{formatted_val} #$Disrupt {selected_disrupt}"
+
                 if tag not in formatted_val:
                     formatted_val = f"{formatted_val} {tag}"
                 # Apply prefix to new appended line
@@ -127,6 +148,11 @@ def save_data_to_github(repo, file_path, original_content, file_sha, current_inp
                 formatted_val = val.strip()
                 if "#$EodLog" not in formatted_val:
                     formatted_val = f"{formatted_val} #$EodLog"
+
+                selected_disrupt = selected_dropdowns.get(tag, "").strip()
+                if selected_disrupt:
+                    formatted_val = f"{formatted_val} #$Disrupt {selected_disrupt}"
+
                 if tag not in formatted_val:
                     formatted_val = f"{formatted_val} {tag}"
                 # Apply prefix to new file content
@@ -174,23 +200,40 @@ def main():
     # If date changes, we need to reload
     if 'current_date' not in st.session_state or st.session_state.current_date != selected_date:
         with st.spinner(f"Loading data for {selected_date}..."):
-            data, original_content, file_sha = load_data_from_github(repo, file_path)
+            data, selected_tags, original_content, file_sha = load_data_from_github(repo, file_path)
             st.session_state.data = data
+            st.session_state.selected_tags = selected_tags
             st.session_state.original_content = original_content
             st.session_state.file_sha = file_sha
             st.session_state.current_date = selected_date
             
     # Dictionary to hold the current values of the text areas
     current_inputs = {}
+    selected_dropdowns = {}
 
     st.write("---")
     for tag in TAGS:
+        label_col, dropdown_col = st.columns([3, 2])
+
+        with label_col:
+            st.markdown(f"**{tag}**")
+
+        with dropdown_col:
+            selected_dropdowns[tag] = st.selectbox(
+                "",
+                [""] + TAGS,
+                index=([""] + TAGS).index(st.session_state.selected_tags.get(tag, "")),
+                key=f"dropdown_{tag}",
+                label_visibility="collapsed"
+            )
+
         # We pre-fill the text area with the line found from the markdown
         current_inputs[tag] = st.text_area(
-            label=tag,
+            label="",
             value=st.session_state.data.get(tag, ""),
             height=100, # Approximate height for 3 lines
-            key=f"input_{tag}"
+            key=f"input_{tag}",
+            label_visibility="collapsed"
         )
 
     with col2:
@@ -204,12 +247,14 @@ def main():
                     file_path, 
                     st.session_state.original_content, 
                     st.session_state.file_sha, 
-                    current_inputs, 
+                    current_inputs,
+                    selected_dropdowns,
                     selected_date
                 )
                 # Refresh data after save to get new SHA
-                data, original_content, file_sha = load_data_from_github(repo, file_path)
+                data, selected_tags, original_content, file_sha = load_data_from_github(repo, file_path)
                 st.session_state.data = data
+                st.session_state.selected_tags = selected_tags
                 st.session_state.original_content = original_content
                 st.session_state.file_sha = file_sha
                 

@@ -1,55 +1,63 @@
  
 Attempting to connect to 6C:5A:B5:E0:9D:2B
-Failed to connect: org.bluez.Error.NotReady br-connection-adapter-not-powered
-volume: 75%   repeat: off   random: on    single: off   consume: off
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
+[[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
+Connection successful
+volume: 73%   repeat: off   random: on    single: off   consume: off
 loading: Leonore
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   0:00/2:55 (0%)
-volume: 75%   repeat: off   random: on    single: off   consume: off
-Alarm --==--==--==--===: Tue May 12 04:50:11 PM IST 2026
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   0:00/2:55 (0%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   0:00/2:56 (0%)
+volume: 73%   repeat: off   random: on    single: off   consume: off
+Alarm --==--==--==--===: Wed May 13 04:50:11 PM IST 2026
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   0:00/2:56 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Tue May 12 04:50:11 PM IST 2026
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   0:00/2:55 (0%)
+Current system time is: Wed May 13 04:50:11 PM IST 2026
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   0:00/2:56 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   0:14/2:55 (8%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   0:14/2:56 (7%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   0:28/2:55 (16%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   0:28/2:56 (15%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   0:42/2:55 (24%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   0:42/2:56 (23%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   0:56/2:55 (32%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   0:56/2:56 (31%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   1:10/2:55 (40%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   1:10/2:56 (39%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   1:24/2:55 (48%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   1:24/2:56 (47%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   1:38/2:55 (56%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   1:38/2:56 (55%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   1:52/2:55 (64%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   1:52/2:56 (63%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   2:06/2:55 (72%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   2:06/2:56 (71%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   2:20/2:55 (80%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   2:20/2:56 (79%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   2:34/2:55 (88%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   2:34/2:56 (87%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/100Nostalgic/0054 I Left My Heart In San Francisco.mp3
-[playing] #54/109   2:48/2:55 (96%)
+OSDISK/100Nostalgic/0026 Jambalaya (On The Bayou).mp3
+[playing] #26/109   2:48/2:56 (95%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
+[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 State: idle
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
+[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
 Disconnection successful

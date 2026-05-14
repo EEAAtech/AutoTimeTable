@@ -6,56 +6,55 @@ Attempting to connect to 6C:5A:B5:E0:9D:2B
 Connection successful
 volume: 73%   repeat: off   random: on    single: off   consume: off
 loading: Fritz
-richard clayderman - bridge over troubles water
-[playing] #27/47   0:00/3:08 (0%)
+richard clayderman - dancing queen
+[playing] #7/47   0:00/3:44 (0%)
 volume: 73%   repeat: off   random: on    single: off   consume: off
-Alarm --==--==--==--===: Tue May 12 08:30:11 PM IST 2026
-richard clayderman - bridge over troubles water
-[playing] #27/47   0:00/3:08 (0%)
+Alarm --==--==--==--===: Wed May 13 08:30:10 PM IST 2026
+richard clayderman - dancing queen
+[playing] #7/47   0:00/3:44 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Tue May 12 08:30:11 PM IST 2026
-richard clayderman - bridge over troubles water
-[playing] #27/47   0:00/3:08 (0%)
+Current system time is: Wed May 13 08:30:10 PM IST 2026
+richard clayderman - dancing queen
+[playing] #7/47   0:00/3:44 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-richard clayderman - bridge over troubles water
-[playing] #27/47   0:14/3:08 (7%)
+richard clayderman - dancing queen
+[playing] #7/47   0:14/3:44 (6%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-richard clayderman - bridge over troubles water
-[playing] #27/47   0:28/3:08 (14%)
+richard clayderman - dancing queen
+[playing] #7/47   0:28/3:44 (12%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-richard clayderman - bridge over troubles water
-[playing] #27/47   0:42/3:08 (22%)
+richard clayderman - dancing queen
+[playing] #7/47   0:42/3:44 (18%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-richard clayderman - bridge over troubles water
-[playing] #27/47   0:56/3:08 (29%)
+richard clayderman - dancing queen
+[playing] #7/47   0:56/3:44 (25%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-richard clayderman - bridge over troubles water
-[playing] #27/47   1:10/3:08 (37%)
+richard clayderman - dancing queen
+[playing] #7/47   1:10/3:44 (31%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-richard clayderman - bridge over troubles water
-[playing] #27/47   1:24/3:08 (44%)
+richard clayderman - dancing queen
+[playing] #7/47   1:24/3:44 (37%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-richard clayderman - bridge over troubles water
-[playing] #27/47   1:38/3:08 (52%)
+richard clayderman - dancing queen
+[playing] #7/47   1:38/3:44 (43%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-richard clayderman - bridge over troubles water
-[playing] #27/47   1:52/3:08 (59%)
+richard clayderman - dancing queen
+[playing] #7/47   1:52/3:44 (50%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-richard clayderman - bridge over troubles water
-[playing] #27/47   2:06/3:08 (67%)
+richard clayderman - dancing queen
+[playing] #7/47   2:06/3:44 (56%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-richard clayderman - bridge over troubles water
-[playing] #27/47   2:20/3:08 (74%)
+richard clayderman - dancing queen
+[playing] #7/47   2:20/3:44 (62%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-richard clayderman - bridge over troubles water
-[playing] #27/47   2:34/3:08 (81%)
+richard clayderman - dancing queen
+[playing] #7/47   2:34/3:44 (68%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-richard clayderman - bridge over troubles water
-[playing] #27/47   2:48/3:08 (89%)
+richard clayderman - dancing queen
+[playing] #7/47   2:48/3:44 (75%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 State: idle
 [[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
 [[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
 [[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no

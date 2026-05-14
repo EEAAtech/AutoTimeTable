@@ -1,58 +1,63 @@
  
 Attempting to connect to 6C:5A:B5:E0:9D:2B
-Failed to connect: org.bluez.Error.NotReady br-connection-adapter-not-powered
-volume: 50%   repeat: off   random: on    single: off   consume: off
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
+[[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
+Connection successful
+volume: 73%   repeat: off   random: on    single: off   consume: off
 loading: GreatestClassical
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   0:00/3:14 (0%)
-volume: 50%   repeat: off   random: on    single: off   consume: off
-Alarm --==--==--==--===: Wed May 13 09:44:51 AM IST 2026
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   0:00/3:14 (0%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   0:00/5:07 (0%)
+volume: 73%   repeat: off   random: on    single: off   consume: off
+Alarm --==--==--==--===: Thu May 14 07:00:14 AM IST 2026
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   0:00/5:07 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Wed May 13 09:44:51 AM IST 2026
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   0:00/3:14 (0%)
+Current system time is: Thu May 14 07:00:14 AM IST 2026
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   0:00/5:07 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   0:14/3:14 (7%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   0:14/5:07 (4%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   0:28/3:14 (14%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   0:28/5:07 (9%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   0:42/3:14 (21%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   0:42/5:07 (13%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   0:56/3:14 (28%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   0:56/5:07 (18%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   1:10/3:14 (36%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   1:10/5:07 (22%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   1:24/3:14 (43%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   1:24/5:07 (27%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   1:38/3:14 (50%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   1:38/5:07 (31%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   1:52/3:14 (57%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   1:52/5:07 (36%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   2:06/3:14 (64%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   2:06/5:07 (41%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   2:20/3:14 (72%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   2:20/5:07 (45%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   2:34/3:14 (79%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   2:34/5:07 (50%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0048 - Beethoven - Piano concerto no.2 in b-flat major, op.19_3.Mp3
-[playing] #48/125   2:48/3:14 (86%)
+OSDISK/GreatestClassical/0107 - Vivaldi - The four seasons, autumn op. 8_3_1. allegro.Mp3
+[playing] #107/125   2:48/5:07 (54%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-Disconnection successful
-: on    single: off   consume: off
-Attempting to disconnect from 6C:5A:B5:E0:9D:2B
+[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 State: idle
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd0 
+[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
 Disconnection successful
