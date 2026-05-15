@@ -1,1 +1,12 @@
-/bin/sh: 1: https://www.youtube.com/@HolyRosaryToday-t4p: not found
+ 
+ROSARY --==--==--==--===: Thu May 14 10:00:03 PM IST 2026
+CHANNEL_URL set to: https://www.youtube.com/@DailyRosaryandPrayerGroup
+Fetch Rosary Command: /usr/local/bin/yt-dlp --flat-playlist --playlist-items 1-3 --print "%(title)s$%(webpage_url)s$%(duration_string)s" "https://www.youtube.com/@DailyRosaryandPrayerGroup" | grep "May 14" | grep Rosary | head -n 1
+!!!!!!!!!!!!! No Rosary video found for date: May 14 !!!!!!!!!!!!!!
+The Video Line: 
+Daily Rosary Sunday March 5, 2026 Glorious Mysteries- Pray with us. We will pray for you|https://www.youtube.com/watch?v=IvlMxplTiW0|20:32 Daily Rosary Sunday March 5, 2026 Glorious Mysteries- Pray with us. We will pray for you|https://www.youtube.com/watch?v=IvlMxplTiW0|20:32
+already connected to 192.168.0.154:5555
+/system/bin/sh: https://www.youtube.com/watch?v=IvlMxplTiW0: inaccessible or not found
+/system/bin/sh: 20:32: inaccessible or not found
+/home/ea/AutoTimeTable/Daily_Rosary.sh: line 82: Daily Rosary Sunday March 5, 2026 Glorious Mysteries- Pray with us. We will pray for you|https: syntax error in expression (error token is "Rosary Sunday March 5, 2026 Glorious Mysteries- Pray with us. We will pray for you|https")
+0

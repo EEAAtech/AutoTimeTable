@@ -53,3 +53,11 @@ volume: 70%   repeat: off   random: on    single: off   consume: off
 richard clayderman - exodus
 [playing] #42/47   2:48/2:57 (94%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
+volume: 75%   repeat: off   random: on    single: off   consume: off
+Attempting to disconnect from 6C:5A:B5:E0:9D:2B
+[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd1 State: idle
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd1 
+[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
+Disconnection successful
