@@ -8,20 +8,22 @@ total_duration=0
 # if the video duration is shorter than 2700 seconds (45 mins), it will play another randomly selected video from the same channel
 # and will continue playing videos from the channel until 2700 seconds are over.
 total_duration=0
-while [ $total_duration -lt 2700 ]; 
-do
-  
+
+
     # Fetch lines for first 50 videos: title|url|duration_string
-  VIDEO_LINES=$(yt-dlp \
+  VIDEO_LINES=$(/usr/local/bin/yt-dlp \
       --flat-playlist \
       --playlist-items 1-50 \
       --print "%(title)s$%(webpage_url)s$%(duration_string)s" \
       "$MUSIC_URL")
 
-
+while [ $total_duration -lt 2700 ]; 
+do
+  
   # Safety check
   if [ -z "$VIDEO_LINES" ]; then
-    echo "!!!!!!!!!!!!! No Music video found for URL: $MUSIC_LINE !!!!!!!!!!!!!! $MUSIC_URL"
+    echo "!!!!!!!!!!!!! No Music video found in : $VIDEO_LINES !!!!!!!!!!!!!! from URL: $MUSIC_URL"
+    exit 1
   fi
 
   # Pick random line
@@ -42,7 +44,24 @@ do
     IFS=':' read -r minutes seconds <<< "$DURATION_STR"
     DURATION_SEC=$((minutes * 60 + seconds))
   fi
- 
+
+echo "Video Duration (secs): $DURATION_SEC for video: $VIDEO_URL and total duration at: $total_duration"
+
+  # Connect to TV
+  /usr/bin/adb connect "$TV_IP"
+  sleep 3
+
+  # Launch YouTube with the correct video
+  /usr/bin/adb shell am start \
+    -n com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity \
+    -a android.intent.action.VIEW \
+    -d "$VIDEO_URL"
+
+  sleep $DURATION_SEC
+
+  total_duration=$((total_duration + DURATION_SEC))
+done
+exit 0
 
   # Launch YouTube with the correct video
   /usr/bin/adb shell am start \

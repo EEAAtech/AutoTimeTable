@@ -1,12 +1,32 @@
  
-ROSARY --==--==--==--===: Thu May 14 10:00:03 PM IST 2026
+ROSARY --==--==--==--===: Tue Aug 11 10:00:02 PM IST 2026
 CHANNEL_URL set to: https://www.youtube.com/@DailyRosaryandPrayerGroup
-Fetch Rosary Command: /usr/local/bin/yt-dlp --flat-playlist --playlist-items 1-3 --print "%(title)s$%(webpage_url)s$%(duration_string)s" "https://www.youtube.com/@DailyRosaryandPrayerGroup" | grep "May 14" | grep Rosary | head -n 1
-!!!!!!!!!!!!! No Rosary video found for date: May 14 !!!!!!!!!!!!!!
+Fetch Rosary Command: /usr/local/bin/yt-dlp --flat-playlist --playlist-items 1-3 --print "%(title)s$%(webpage_url)s$%(duration_string)s" "https://www.youtube.com/@DailyRosaryandPrayerGroup" | grep "August 11" | grep Rosary | head -n 1
+WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         Run "yt-dlp --update" or "yt-dlp -U" to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube:tab] <urllib3.connection.HTTPSConnection object at 0x7fb40ae7b0>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known). Retrying (1/3)...
+WARNING: [youtube:tab] <urllib3.connection.HTTPSConnection object at 0x7fb40b3750>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known). Retrying (2/3)...
+WARNING: [youtube:tab] <urllib3.connection.HTTPSConnection object at 0x7fb403c050>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known). Retrying (3/3)...
+WARNING: [youtube:tab] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7fb403c550>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7fb403c550>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known)")). Giving up after 3 retries
+WARNING: [youtube:tab] <urllib3.connection.HTTPSConnection object at 0x7fb40b3c50>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known). Retrying (1/3)...
+WARNING: [youtube:tab] <urllib3.connection.HTTPSConnection object at 0x7fb40b3b10>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known). Retrying (2/3)...
+WARNING: [youtube:tab] <urllib3.connection.HTTPSConnection object at 0x7fb40b34d0>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known). Retrying (3/3)...
+ERROR: [youtube:tab] @DailyRosaryandPrayerGroup: Unable to download API page: <urllib3.connection.HTTPSConnection object at 0x7fb40b3890>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7fb40b3890>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known)"))
+!!!!!!!!!!!!! No Rosary video found for date: August 11 !!!!!!!!!!!!!!
 The Video Line: 
-Daily Rosary Sunday March 5, 2026 Glorious Mysteries- Pray with us. We will pray for you|https://www.youtube.com/watch?v=IvlMxplTiW0|20:32 Daily Rosary Sunday March 5, 2026 Glorious Mysteries- Pray with us. We will pray for you|https://www.youtube.com/watch?v=IvlMxplTiW0|20:32
-already connected to 192.168.0.154:5555
-/system/bin/sh: https://www.youtube.com/watch?v=IvlMxplTiW0: inaccessible or not found
-/system/bin/sh: 20:32: inaccessible or not found
-/home/ea/AutoTimeTable/Daily_Rosary.sh: line 82: Daily Rosary Sunday March 5, 2026 Glorious Mysteries- Pray with us. We will pray for you|https: syntax error in expression (error token is "Rosary Sunday March 5, 2026 Glorious Mysteries- Pray with us. We will pray for you|https")
-0
+WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         Run "yt-dlp --update" or "yt-dlp -U" to update.
+         To suppress this warning, add --no-update to your command/config.
+WARNING: [youtube:tab] <urllib3.connection.HTTPSConnection object at 0x7f811627b0>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known). Retrying (1/3)...
+WARNING: [youtube:tab] <urllib3.connection.HTTPSConnection object at 0x7f8115f750>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known). Retrying (2/3)...
+WARNING: [youtube:tab] <urllib3.connection.HTTPSConnection object at 0x7f811c8050>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known). Retrying (3/3)...
+WARNING: [youtube:tab] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7f811c8550>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7f811c8550>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known)")). Giving up after 3 retries
+WARNING: [youtube:tab] <urllib3.connection.HTTPSConnection object at 0x7f8115fc50>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known). Retrying (1/3)...
+WARNING: [youtube:tab] <urllib3.connection.HTTPSConnection object at 0x7f8115fb10>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known). Retrying (2/3)...
+WARNING: [youtube:tab] <urllib3.connection.HTTPSConnection object at 0x7f8115f4d0>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known). Retrying (3/3)...
+ERROR: [youtube:tab] @DailyRosaryandPrayerGroup: Unable to download API page: <urllib3.connection.HTTPSConnection object at 0x7f8115f890>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7f8115f890>: Failed to resolve 'www.youtube.com' ([Errno -2] Name or service not known)"))
+ 
+!!!!!!!!!!!!! Failsafe also failed:   !!!!!!!!!!!!!!

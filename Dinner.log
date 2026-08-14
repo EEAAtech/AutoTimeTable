@@ -6,58 +6,53 @@ Attempting to connect to 6C:5A:B5:E0:9D:2B
 Connection successful
 volume: 75%   repeat: off   random: on    single: off   consume: off
 loading: Fritz
-richard clayderman - exodus
-[playing] #42/47   0:00/2:57 (0%)
+richard clayderman - feelings
+[playing] #15/47   0:00/3:12 (0%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
-Alarm --==--==--==--===: Thu May 14 08:30:14 PM IST 2026
-richard clayderman - exodus
-[playing] #42/47   0:00/2:57 (0%)
+Alarm --==--==--==--===: Tue Aug 11 08:30:14 PM IST 2026
+richard clayderman - feelings
+[playing] #15/47   0:00/3:12 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Thu May 14 08:30:14 PM IST 2026
-richard clayderman - exodus
-[playing] #42/47   0:00/2:57 (0%)
+Current system time is: Tue Aug 11 08:30:15 PM IST 2026
+richard clayderman - feelings
+[playing] #15/47   0:00/3:12 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-richard clayderman - exodus
-[playing] #42/47   0:14/2:57 (7%)
+richard clayderman - feelings
+[playing] #15/47   0:14/3:12 (7%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-richard clayderman - exodus
-[playing] #42/47   0:28/2:57 (15%)
+richard clayderman - feelings
+[playing] #15/47   0:28/3:12 (14%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-richard clayderman - exodus
-[playing] #42/47   0:42/2:57 (23%)
+richard clayderman - feelings
+[playing] #15/47   0:42/3:12 (21%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-richard clayderman - exodus
-[playing] #42/47   0:56/2:57 (31%)
+richard clayderman - feelings
+[playing] #15/47   0:56/3:12 (29%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-richard clayderman - exodus
-[playing] #42/47   1:10/2:57 (39%)
+richard clayderman - feelings
+[playing] #15/47   1:10/3:12 (36%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-richard clayderman - exodus
-[playing] #42/47   1:24/2:57 (47%)
+richard clayderman - feelings
+[playing] #15/47   1:24/3:12 (43%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-richard clayderman - exodus
-[playing] #42/47   1:38/2:57 (55%)
+richard clayderman - feelings
+[playing] #15/47   1:38/3:12 (51%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-richard clayderman - exodus
-[playing] #42/47   1:52/2:57 (63%)
+richard clayderman - feelings
+[playing] #15/47   1:52/3:12 (58%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-richard clayderman - exodus
-[playing] #42/47   2:06/2:57 (71%)
+richard clayderman - feelings
+[playing] #15/47   2:06/3:12 (65%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-richard clayderman - exodus
-[playing] #42/47   2:20/2:57 (79%)
+richard clayderman - feelings
+[playing] #15/47   2:20/3:12 (72%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-richard clayderman - exodus
-[playing] #42/47   2:34/2:57 (87%)
+richard clayderman - feelings
+[playing] #15/47   2:34/3:12 (80%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-richard clayderman - exodus
-[playing] #42/47   2:48/2:57 (94%)
+richard clayderman - feelings
+[playing] #15/47   2:48/3:12 (87%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
-[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd1 State: idle
-[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd1 
-[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
-[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
 Disconnection successful

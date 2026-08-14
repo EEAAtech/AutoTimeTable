@@ -60,7 +60,7 @@ sleep 3
 
 
 # Handle profile selector (safe)
-sleep 5
+sleep 10
 /usr/bin/adb shell input keyevent KEYCODE_DPAD_CENTER
 sleep 2
 /usr/bin/adb shell input keyevent KEYCODE_MEDIA_PLAY
@@ -70,6 +70,9 @@ sleep 2
 # After Mass, Play the News on Radio 4 assuming Mass  get over in 35 mins
 sleep $((minutes * 60 + seconds))
 
+#sleep an additional 8 mins to ensure Mass is over
+sleep $((8 * 60))
+
 # Ensure Bluetooth controller is powered on
 # /usr/bin/bluetoothctl power on
 
@@ -78,12 +81,13 @@ sleep $((minutes * 60 + seconds))
 # /usr/bin/bluetoothctl connect 6C:5A:B5:E0:9D:2B
 #sleep 3
 
-/usr/bin/adb connect  "$TV_IP"
+#/usr/bin/adb connect  "$TV_IP"
 
 # Give time to wake up
-sleep 3
+#sleep 3
 ./AutoTimeTable/AudioOnlyTv.sh
 
+echo "Music URL: $MUSIC_URL"
 # Play the music from Youtube
 ./AutoTimeTable/YTmusic.sh "$MUSIC_URL"
 
