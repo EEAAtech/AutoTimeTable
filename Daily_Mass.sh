@@ -110,7 +110,7 @@ echo "Switching to Radio at: $(date)"
 sleep 3
 
 # Play it on the TV speakers
-/usr/bin/adb shell am start -a android.intent.action.VIEW -d "http://192.168.0.133:8031"
+/usr/bin/adb shell am start -a android.intent.action.VIEW -d "http://192.168.0.117:8031"
 
 # Wait a bit for the tv to setup is browser, then set Audio Only mode o
 # sleep 10

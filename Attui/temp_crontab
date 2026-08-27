@@ -26,3 +26,5 @@
 # To kill crontabMgr.py, first find its pid: ps aux | grep crontabMgr.py
 # You could also use this to find the PID: jobs -l
 # Then kill the Pid with: kill your_pid
+
+@reboot cd /home/ea/SweetsDB && /usr/bin/python3 -m http.server 8137 >> /home/ea/SweetsDB/sweet.log 2>&1 &

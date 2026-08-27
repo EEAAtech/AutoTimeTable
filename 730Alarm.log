@@ -1,55 +1,63 @@
  
 Attempting to connect to 6C:5A:B5:E0:9D:2B
-Failed to connect: org.bluez.Error.NotReady br-connection-adapter-not-powered
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: yes
+[[0;92mNEW[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;92mNEW[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd10 
+Connection successful
 volume: 75%   repeat: off   random: on    single: off   consume: off
 loading: GreatestClassical
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   0:00/2:48 (0%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   0:00/3:34 (0%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
-Alarm --==--==--==--===: Tue Aug 11 07:00:11 AM IST 2026
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   0:00/2:48 (0%)
+Alarm --==--==--==--===: Thu Aug 27 07:00:13 AM IST 2026
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   0:00/3:34 (0%)
 volume: 10%   repeat: off   random: on    single: off   consume: off
-Current system time is: Tue Aug 11 07:00:11 AM IST 2026
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   0:00/2:48 (0%)
+Current system time is: Thu Aug 27 07:00:13 AM IST 2026
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   0:00/3:34 (0%)
 volume: 15%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   0:14/2:48 (8%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   0:14/3:34 (6%)
 volume: 20%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   0:28/2:48 (16%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   0:28/3:34 (13%)
 volume: 25%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   0:42/2:48 (25%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   0:42/3:34 (19%)
 volume: 30%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   0:56/2:48 (33%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   0:56/3:34 (26%)
 volume: 35%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   1:10/2:48 (41%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   1:10/3:34 (32%)
 volume: 40%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   1:24/2:48 (50%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   1:24/3:34 (39%)
 volume: 45%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   1:38/2:48 (58%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   1:38/3:34 (45%)
 volume: 50%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   1:52/2:48 (66%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   1:52/3:34 (52%)
 volume: 55%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   2:06/2:48 (75%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   2:06/3:34 (58%)
 volume: 60%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   2:20/2:48 (83%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   2:20/3:34 (65%)
 volume: 65%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0121 - Vivaldi - Concerto for oboe and bassoon in g major, rv 545_ 1. andante molto (excerpt).Mp3
-[playing] #121/125   2:34/2:48 (91%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   2:34/3:34 (71%)
 volume: 70%   repeat: off   random: on    single: off   consume: off
-OSDISK/GreatestClassical/0066 - Bach - Goldberg variations, bwv 988_1. aria.Mp3
-[playing] #66/125   0:01/1:28 (1%)
+OSDISK/GreatestClassical/0046 - Beethoven - Piano sonata no.20 in g major, op.49_2_ 2nd movement.Mp3
+[playing] #46/125   2:48/3:34 (78%)
 volume: 75%   repeat: off   random: on    single: off   consume: off
 volume: 75%   repeat: off   random: on    single: off   consume: off
 Attempting to disconnect from 6C:5A:B5:E0:9D:2B
+[[0;93mCHG[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd10 State: idle
+[[0;91mDEL[0m] Transport /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1/fd10 
+[[0;91mDEL[0m] Endpoint /org/bluez/hci0/dev_6C_5A_B5_E0_9D_2B/sep1 
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B ServicesResolved: no
+[[0;93mCHG[0m] Device 6C:5A:B5:E0:9D:2B Connected: no
 Disconnection successful
